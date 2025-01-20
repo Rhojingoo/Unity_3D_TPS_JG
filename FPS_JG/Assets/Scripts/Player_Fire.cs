@@ -43,10 +43,15 @@ public class Player_Fire : MonoBehaviour
                     //effectPs.transform.eulerAngles = new Vector3(0f, 90f, 0f);
                     //Quaternion.Euler를 사용하여 대입
                     //effectPs.transform.rotation = Quaternion.Euler(0f, 90f, 0f);
-                    
-                    //카메라를 바라보는 방향으로 회전
+
+
+                    //충돌된 물체의 법선벡터 회전(보통은 이렇게 하면 될듯)
+                    //effectPs.transform.forward = hitInfo.normal;
+
+                    //카메라를 바라보는 방향으로 회전(이미지 자체가 옆으로 돌아 있어서서 설정변경)
                     effectPs.transform.LookAt(Camera.main.transform);
                     effectPs.transform.Rotate(0f, -90f, 0f);
+
                     effectPs.Play();
                 }
 
