@@ -42,7 +42,7 @@ public class Cammer_Rotate : MonoBehaviour
         //}
 
         // 기존 
-        //{ 
+
         //float Mouse_X = Input.GetAxis("Mouse X");
         //float Mouse_Y = Input.GetAxis("Mouse Y");
 
@@ -50,9 +50,13 @@ public class Cammer_Rotate : MonoBehaviour
         //my = Mouse_Y * rotSpeed * Time.deltaTime;
         //my = Mathf.Clamp(my, -90f, 90);
 
-        //transform.eulerAngles += new Vector3(-my, mx,0);
-        //}
+        //transform.eulerAngles += new Vector3(-my, mx, 0);
 
+
+
+
+
+        //변경할 내용
         if (!initialized)
         {
             // Unity에서 Raw Mouse Position(스크린 좌표)을 가져오는 방식
@@ -61,7 +65,7 @@ public class Cammer_Rotate : MonoBehaviour
             return; // 이번 프레임은 회전 계산 안 함
         }
 
-        // 현재 마우스 위치
+       // 현재 마우스 위치
         Vector2 curMousePos = Input.mousePosition;
         // 이번 프레임에서의 이동량(Delta)
         Vector2 delta = curMousePos - prevMousePos;

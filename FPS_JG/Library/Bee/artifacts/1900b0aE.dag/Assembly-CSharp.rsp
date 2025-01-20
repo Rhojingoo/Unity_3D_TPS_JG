@@ -359,6 +359,7 @@
 "Assets/Scripts/Player_Fire.cs"
 "Assets/Scripts/Player_Move.cs"
 "Assets/Scripts/Player_Rotate.cs"
+"Assets/Stylized Weapon Pack/M4 Scoped Assault Rifle/Scripts/GunfireController.cs"
 -langversion:9.0
 /deterministic
 /optimize+
