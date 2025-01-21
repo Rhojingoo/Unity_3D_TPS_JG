@@ -1,26 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Player_Fire : MonoBehaviour
 {
     public GameObject Fire_Position;
 
+    //--------- (A) ì´ì•Œ(ìˆ˜ë¥˜íƒ„) í’€ ê´€ë ¨ -----------
     GameObject[] Bullet_ObjectPool;
     public int Bullet_PoolSize = 10;
     public GameObject Bomb_Factory;
     public float Throw_Power = 15f;
 
-    // --------- (B) ÀÌÆåÆ® Ç® °ü·Ã -----------
-    public GameObject Bullet_Effect;     // ÆÄÆ¼Å¬ ÇÁ¸®ÆÕ
-    public int Effect_PoolSize = 10;     // Ç® Å©±â
+
+    // --------- (B) ì´í™íŠ¸ í’€ ê´€ë ¨ ----------
+    public GameObject Bullet_Effect;     // íŒŒí‹°í´ í”„ë¦¬íŒ¹
+    public int Effect_PoolSize = 10;     // í’€ í¬ê¸°
     GameObject[] Effect_ObjectPool;
+    public int Bullet_Power = 15;
     //ParticleSystem Ps;
 
     // Start is called before the first frame update
     void Start()
     {
-        // (A) ÃÑ¾Ë(ÆøÅº) Ç®: ¿¹½Ã¸¸ ÀÖ°í, ¾ÆÁ÷ ¾È ¾²°í ÀÖ´Â »óÅÂ
+        // (A) ì´ì•Œ(í­íƒ„) í’€: ì˜ˆì‹œë§Œ ìˆê³ , ì•„ì§ ì•ˆ ì“°ê³  ìˆëŠ” ìƒíƒœ
         //Bullet_ObjectPool = new GameObject[Bullet_PoolSize];
         //for (int i = 0; i < Bullet_PoolSize; i++)
         //{
@@ -29,7 +33,7 @@ public class Player_Fire : MonoBehaviour
         //    Bullet_ObjectPool[i] = bullet;
         //}
 
-        // (B) ºæ·¿ÀÌÆåÆ® Ç® »ı¼º
+        // (B) ì´í™íŠ¸ í’€ ìƒì„±
         Effect_ObjectPool = new GameObject[Effect_PoolSize];
         for (int i = 0; i < Effect_PoolSize; i++)
         {
@@ -37,7 +41,7 @@ public class Player_Fire : MonoBehaviour
             effectObj.SetActive(false);
             Effect_ObjectPool[i] = effectObj;
 
-            // ÆÄÆ¼Å¬ÀÌ Àç»ı ¿Ï·áµÇ¸é ÀÚµ¿À¸·Î Ç®¿¡ ¹İÈ¯ÇÏ±â À§ÇÑ ½ºÅ©¸³Æ®(¾Æ·¡¿¡¼­ ¼³¸í)
+            // íŒŒí‹°í´ì´ ì¬ìƒ ì™„ë£Œë˜ë©´ ìë™ìœ¼ë¡œ í’€ì— ë°˜í™˜í•˜ê¸° ìœ„í•œ ìŠ¤í¬ë¦½íŠ¸
             //effectObj.AddComponent<ParticleAutoDisable>();
         }
         //  Ps = Bullet_Effect.GetComponent<ParticleSystem>();
@@ -54,57 +58,70 @@ public class Player_Fire : MonoBehaviour
 
             if (Physics.Raycast(ray, out hitInfo))
             {
-                GameObject effectObj = GetEffectFromPool();
-                if (effectObj != null)
+
+                if (hitInfo.transform.gameObject.layer == LayerMask.NameToLayer("Enermy"))
                 {
-                    // À§Ä¡/È¸Àü ¼³Á¤
-                    effectObj.transform.position = hitInfo.point;
+                    print("í”Œë ˆì´ì–´ ì´ì†¼ì–´");
+                    Enermy_FSM Monster = hitInfo.transform.GetComponent<Enermy_FSM>();
+                    Monster.Hit_Enermy(Bullet_Power);
+                }
+                else 
+                {
+                    GameObject effectObj = GetEffectFromPool();
+                    if (effectObj != null)
+                    {
+                        // ìœ„ì¹˜/íšŒì „ ì„¤ì •
+                        effectObj.transform.position = hitInfo.point;
 
-                    // ¿øÇÏ´Â È¸Àü Ã³¸® (¿¹: Ä«¸Ş¶ó ¹æÇâ º¸Á¤)
-                    effectObj.transform.LookAt(Camera.main.transform);
-                    effectObj.transform.Rotate(0f, -90f, 0f);
+                        // ì›í•˜ëŠ” íšŒì „ ì²˜ë¦¬ (ì˜ˆ: ì¹´ë©”ë¼ ë°©í–¥ ë³´ì •)
+                        effectObj.transform.LookAt(Camera.main.transform);
+                        effectObj.transform.Rotate(0f, -90f, 0f);
 
-                    // È°¼ºÈ­ÇÏ¿© ÆÄÆ¼Å¬ Àç»ı
-                    effectObj.SetActive(true);
-                    ParticleSystem ps = effectObj.GetComponent<ParticleSystem>();
-                    if (ps != null)
-                        ps.Play();
+                        // í™œì„±í™”í•˜ì—¬ íŒŒí‹°í´ ì¬ìƒ
+                        effectObj.SetActive(true);
+                        ParticleSystem ps = effectObj.GetComponent<ParticleSystem>();
+                        if (ps != null)
+                            ps.Play();
+                    }
+
+
+                    //Bullet_Effect.transform.position = hitInfo.point;
+                    //GameObject effectObj = Instantiate(Bullet_Effect, hitInfo.point, Quaternion.identity);
+                    //ParticleSystem effectPs = effectObj.GetComponent<ParticleSystem>();               
+
+                    //if (effectPs != null)
+                    //{
+                    //    //EulerAnglesë¥¼ í†µì§¸ë¡œ ëŒ€ì…í•˜ëŠ” ë°©ë²•
+                    //    //effectPs.transform.eulerAngles = new Vector3(0f, 90f, 0f);
+                    //    //Quaternion.Eulerë¥¼ ì‚¬ìš©í•˜ì—¬ ëŒ€ì…
+                    //    //effectPs.transform.rotation = Quaternion.Euler(0f, 90f, 0f);
+
+
+                    //    //ì¶©ëŒëœ ë¬¼ì²´ì˜ ë²•ì„ ë²¡í„° íšŒì „(ë³´í†µì€ ì´ë ‡ê²Œ í•˜ë©´ ë ë“¯)
+                    //    //effectPs.transform.forward = hitInfo.normal;
+
+                    //    //ì¹´ë©”ë¼ë¥¼ ë°”ë¼ë³´ëŠ” ë°©í–¥ìœ¼ë¡œ íšŒì „(ì´ë¯¸ì§€ ìì²´ê°€ ì˜†ìœ¼ë¡œ ëŒì•„ ìˆì–´ì„œì„œ ì„¤ì •ë³€ê²½)
+                    //    effectPs.transform.LookAt(Camera.main.transform);
+                    //    effectPs.transform.Rotate(0f, -90f, 0f);
+
+                    //    effectPs.Play();
+                    //}
+
+                    //// print("ë ˆì´ í™•ì¸ í•œë‹¤");
+                    // //Bullet_Effect.transform.position = hitInfo.point;
+                    // // Ps.Play();
                 }
 
 
 
 
-                //Bullet_Effect.transform.position = hitInfo.point;
-                //GameObject effectObj = Instantiate(Bullet_Effect, hitInfo.point, Quaternion.identity);
-                //ParticleSystem effectPs = effectObj.GetComponent<ParticleSystem>();               
 
-                //if (effectPs != null)
-                //{
-                //    //EulerAngles¸¦ ÅëÂ°·Î ´ëÀÔÇÏ´Â ¹æ¹ı
-                //    //effectPs.transform.eulerAngles = new Vector3(0f, 90f, 0f);
-                //    //Quaternion.Euler¸¦ »ç¿ëÇÏ¿© ´ëÀÔ
-                //    //effectPs.transform.rotation = Quaternion.Euler(0f, 90f, 0f);
-
-
-                //    //Ãæµ¹µÈ ¹°Ã¼ÀÇ ¹ı¼±º¤ÅÍ È¸Àü(º¸ÅëÀº ÀÌ·¸°Ô ÇÏ¸é µÉµí)
-                //    //effectPs.transform.forward = hitInfo.normal;
-
-                //    //Ä«¸Ş¶ó¸¦ ¹Ù¶óº¸´Â ¹æÇâÀ¸·Î È¸Àü(ÀÌ¹ÌÁö ÀÚÃ¼°¡ ¿·À¸·Î µ¹¾Æ ÀÖ¾î¼­¼­ ¼³Á¤º¯°æ)
-                //    effectPs.transform.LookAt(Camera.main.transform);
-                //    effectPs.transform.Rotate(0f, -90f, 0f);
-
-                //    effectPs.Play();
-                //}
-
-                //// print("·¹ÀÌ È®ÀÎ ÇÑ´Ù");
-                // //Bullet_Effect.transform.position = hitInfo.point;
-                // // Ps.Play();
             }
 
         }
         else if (Input.GetMouseButtonDown(1))
         {
-            print("¼ö·ùÅº ¹ß»çÇß´Ù");
+            print("ìˆ˜ë¥˜íƒ„ ë°œì‚¬");
             GameObject Bomb = Instantiate(Bomb_Factory);
             Bomb.transform.position = Fire_Position.transform.position;
 
@@ -118,15 +135,15 @@ public class Player_Fire : MonoBehaviour
     {
         for (int i = 0; i < Effect_ObjectPool.Length; i++)
         {
-            // ¾ÆÁ÷ »ç¿ë ÁßÀÌ ¾Æ´Ñ(ºñÈ°¼ºÈ­µÈ) ¿ÀºêÁ§Æ® Ã£±â
+            // ì•„ì§ ì‚¬ìš© ì¤‘ì´ ì•„ë‹Œ(ë¹„í™œì„±í™”ëœ) ì˜¤ë¸Œì íŠ¸ ì°¾ê¸°
             if (!Effect_ObjectPool[i].activeSelf)
             {
                 return Effect_ObjectPool[i];
             }
         }
-        // ³²¾ÆÀÖ´Â ÀÌÆåÆ®°¡ ¾ø´Ù¸é(Ç®ÀÌ ²Ë Ã¡´Ù¸é),
-        // ÇÊ¿ä¿¡ µû¶ó »õ·Î InstantiateÇÏ°Å³ª, nullÀ» ¸®ÅÏÇÏ´Â µî Á¤Ã¥ °áÁ¤
-        // ¿©±â¼­´Â null ¸®ÅÏ
+        // ë‚¨ì•„ìˆëŠ” ì´í™íŠ¸ê°€ ì—†ë‹¤ë©´(í’€ì´ ê½‰ ì°¼ë‹¤ë©´),
+        // í•„ìš”ì— ë”°ë¼ ìƒˆë¡œ Instantiateí•˜ê±°ë‚˜, nullì„ ë¦¬í„´í•˜ëŠ” ë“± ì •ì±… ê²°ì •
+        // ì—¬ê¸°ì„œëŠ” null ë¦¬í„´
         return null;
     }
 

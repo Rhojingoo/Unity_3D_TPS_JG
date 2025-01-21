@@ -12,8 +12,8 @@ public class Cammer_Rotate : MonoBehaviour
     float currentPitch = 0f; // 상하 회전값
     float currentYaw = 0f;   // 좌우 회전값
 
-    float mx = 0f;
-    float my = 0f;
+    //float mx = 0f;
+    //float my = 0f;
 
     // Start is called before the first frame update
     void Start()

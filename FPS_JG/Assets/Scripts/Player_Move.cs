@@ -9,12 +9,18 @@ public class Player_Move : MonoBehaviour
     public float Jump_Power = 10f;
     public float yVelocity = 0f;
     public bool IsJump = false;
-
     float gravity = -20f;
+    
+    int Hp = 0;
+    public int MaxHp = 100;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
+        Hp = MaxHp;
+
         cc = GetComponent<CharacterController>();
     }
 
@@ -49,5 +55,10 @@ public class Player_Move : MonoBehaviour
         cc.Move(Dir* Move_Speed* Time.deltaTime);
 
         //transform.position += Dir * Move_Speed * Time.deltaTime;
+    }
+
+    public void Damaaged(int Dam)
+    {
+        Hp -= Dam;
     }
 }

@@ -357,6 +357,7 @@
 "Assets/Scripts/Cam_Follow.cs"
 "Assets/Scripts/Cam_Rotate.cs"
 "Assets/Scripts/Destroy_Effect.cs"
+"Assets/Scripts/Enermy_FSM.cs"
 "Assets/Scripts/Player_Fire.cs"
 "Assets/Scripts/Player_Move.cs"
 "Assets/Scripts/Player_Rotate.cs"
