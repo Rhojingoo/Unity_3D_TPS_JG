@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player_Move : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class Player_Move : MonoBehaviour
     
     int Hp = 0;
     public int MaxHp = 100;
-
+    public Slider Hp_Slider;
 
 
     // Start is called before the first frame update
@@ -55,6 +56,8 @@ public class Player_Move : MonoBehaviour
         cc.Move(Dir* Move_Speed* Time.deltaTime);
 
         //transform.position += Dir * Move_Speed * Time.deltaTime;
+
+        Hp_Slider.value = (float)Hp / (float)MaxHp;
     }
 
     public void Damaaged(int Dam)

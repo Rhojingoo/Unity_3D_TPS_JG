@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class Enermy_FSM : MonoBehaviour
 {
@@ -25,6 +27,7 @@ public class Enermy_FSM : MonoBehaviour
     float Move_Speed = 5f;
     float Cur_Time = 0f;
 
+    public Slider Hp_Slider;
     public int MaxHp = 30;
     int Hp = 0;
     float Attack_Delay = 2f;
@@ -42,6 +45,7 @@ public class Enermy_FSM : MonoBehaviour
 
         CC = GetComponent<CharacterController>();
 
+       
         Hp = MaxHp;
     }
 
@@ -69,6 +73,8 @@ public class Enermy_FSM : MonoBehaviour
                 //Die();
                 break;
         }
+
+        Hp_Slider.value = (float)Hp/ (float)MaxHp;
     }
 
     void Idle()
