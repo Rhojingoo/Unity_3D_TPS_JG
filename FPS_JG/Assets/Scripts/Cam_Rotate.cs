@@ -30,6 +30,12 @@ public class Cammer_Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.Gm.State != GameManager.GameState.Run)
+        {
+            return;
+        }
+
+
         //맨처음 학습시
         //{
         //Vector3 Dir = new Vector3(-Mouse_Y,Mouse_X, 0);
@@ -51,9 +57,6 @@ public class Cammer_Rotate : MonoBehaviour
         //my = Mathf.Clamp(my, -90f, 90);
 
         //transform.eulerAngles += new Vector3(-my, mx, 0);
-
-
-
 
 
         //변경할 내용
@@ -83,10 +86,6 @@ public class Cammer_Rotate : MonoBehaviour
         currentYaw += deltaX;
 
         transform.eulerAngles = new Vector3(currentPitch, currentYaw, 0f);
-
-
-
-
     }
 
 }

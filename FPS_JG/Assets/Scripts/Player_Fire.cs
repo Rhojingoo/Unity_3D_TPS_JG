@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
+
 public class Player_Fire : MonoBehaviour
 {
     public GameObject Fire_Position;
@@ -50,6 +51,11 @@ public class Player_Fire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.Gm.State != GameManager.GameState.Run)
+        {
+            return;        
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
