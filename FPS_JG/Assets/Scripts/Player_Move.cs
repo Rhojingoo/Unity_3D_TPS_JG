@@ -85,4 +85,12 @@ public class Player_Move : MonoBehaviour
 
         Hit_Effect.SetActive(false);
     }
+
+    public int PlayerHP
+    {
+        get 
+        {
+            return Hp;
+        }       
+    }
 }

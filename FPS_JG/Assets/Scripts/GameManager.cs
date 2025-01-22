@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Gm;
     public GameObject GameLable;
     Text GameText;
+    Player_Move player;
 
     public enum GameState
     { 
@@ -34,6 +35,7 @@ public class GameManager : MonoBehaviour
         GameText = GameLable.GetComponent<Text>();
         GameText.text = "Ready~~~!";
         GameText.color = new Color32(255, 185, 0, 255);
+        player = GameObject.Find("Player").GetComponent<Player_Move>(); 
 
         StartCoroutine(ReadytoStart());
     }
@@ -41,7 +43,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (player.PlayerHP <= 0)
+        {
+            GameLable.SetActive(true);
+            GameText.text = "Game Over";
+            GameText.color = new Color32(255, 0, 0, 255);
+            State = GameState.GameOver;
+        }
     }
 
     IEnumerator ReadytoStart()
