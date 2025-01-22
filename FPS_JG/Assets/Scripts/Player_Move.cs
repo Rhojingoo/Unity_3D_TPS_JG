@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Player_Move : MonoBehaviour
 {
-    CharacterController cc;
+     CharacterController cc;
     public float Move_Speed = 7f;
     public float Jump_Power = 10f;
     public float yVelocity = 0f;
@@ -16,6 +16,7 @@ public class Player_Move : MonoBehaviour
     public int MaxHp = 100;
     public Slider Hp_Slider;
 
+    public GameObject Hit_Effect;
 
     // Start is called before the first frame update
     void Start()
@@ -63,5 +64,19 @@ public class Player_Move : MonoBehaviour
     public void Damaaged(int Dam)
     {
         Hp -= Dam;
+
+        if (Hp > 0)
+        {
+            StartCoroutine(PlayHitEffect());
+        }
+    }
+
+    IEnumerator PlayHitEffect()
+    {
+        Hit_Effect.SetActive(true);
+
+        yield return new WaitForSeconds(0.3f);
+
+        Hit_Effect.SetActive(false);
     }
 }

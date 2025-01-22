@@ -31,7 +31,7 @@ public class Enermy_FSM : MonoBehaviour
     public int MaxHp = 30;
     int Hp = 0;
     float Attack_Delay = 2f;
-    public int Attack_Dammege = 5;
+    public int Attack_Dammege = 15;
 
 
     // Start is called before the first frame update
