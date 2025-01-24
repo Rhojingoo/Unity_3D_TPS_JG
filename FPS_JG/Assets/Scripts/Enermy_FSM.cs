@@ -16,6 +16,7 @@ public class Enermy_FSM : MonoBehaviour
         DIE
     }
 
+    Animator Anim;
     Transform player;
     CharacterController CC;
     EnermyState State;
@@ -23,6 +24,7 @@ public class Enermy_FSM : MonoBehaviour
     float Attack_Distance = 2f;
     public float Move_Distance = 20f;
     Vector3 OriginPos;
+    Quaternion OriginRot;
 
     float Move_Speed = 5f;
     float Cur_Time = 0f;
@@ -37,9 +39,12 @@ public class Enermy_FSM : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Anim = transform.GetComponentInChildren<Animator>();
+
         State = EnermyState.IDLE;
 
         OriginPos = transform.position;
+        OriginRot = transform.rotation;
 
         player = GameObject.Find("Player").transform;
 
@@ -82,6 +87,9 @@ public class Enermy_FSM : MonoBehaviour
         if (Vector3.Distance(transform.position, player.position) < Find_Distance)
         {
             print("상태변경 : IDLE -> MOVE");
+
+            Anim.SetTrigger("IDLEtoMOVE");
+
             State = EnermyState.MOVE;
         }
     }
@@ -97,11 +105,13 @@ public class Enermy_FSM : MonoBehaviour
         {
             Vector3 Dir = (player.position - transform.position).normalized;
             CC.Move(Dir * Move_Speed * Time.deltaTime);
+            transform.forward = Dir;   
         }
         else
         {
             print("상태변경 : MOVE -> ATTACK");
             Cur_Time = Attack_Delay;
+            Anim.SetTrigger("MOVEtoATTACKDELAY");
             State = EnermyState.ATTACK;
         }
     }
@@ -112,12 +122,18 @@ public class Enermy_FSM : MonoBehaviour
         {
             Vector3 Dir = (OriginPos - transform.position).normalized;
             CC.Move(Dir * Move_Speed * Time.deltaTime);
+            transform.forward = Dir;
         }
         else
         {
             transform.position = OriginPos;
+            transform.rotation = OriginRot;
+
             Hp = MaxHp;
+
             print("상태변경 : MOVE -> IDLE");
+            Anim.SetTrigger("MOVEtoIDLE");
+
             State = EnermyState.IDLE;
         }
     }
@@ -130,17 +146,27 @@ public class Enermy_FSM : MonoBehaviour
             if (Cur_Time > Attack_Delay)
             {
                 Cur_Time = 0f;
-                player.GetComponent<Player_Move>().Damaaged(Attack_Dammege);
+                
+                //player.GetComponent<Player_Move>().Damaaged(Attack_Dammege);               
+                
                 print("ATTACK");
+                Anim.SetTrigger("STARTATTACK");
             }
         }
         else
         {
             Cur_Time = 0f;
             print("상태변경 : ATTACK -> MOVE");
+            Anim.SetTrigger("ATTACKtoMOVE");
             State = EnermyState.MOVE;
         }
     }
+
+    public void AttackAction()
+    {
+        player.GetComponent<Player_Move>().Damaaged(Attack_Dammege);
+    }
+
 
     public void Hit_Enermy(int Dam)
     {
@@ -155,12 +181,14 @@ public class Enermy_FSM : MonoBehaviour
         {
             State = EnermyState.DAMEGED;
             print("상태변경 : Hit -> DAMEGED");
+            Anim.SetTrigger("DAMAGED");
             Dameged();
         }
         else 
         {
             State = EnermyState.DIE;
             print("상태변경 : Hit -> DIE");
+            Anim.SetTrigger("DIE");
             Die();
         }
 
@@ -176,7 +204,7 @@ public class Enermy_FSM : MonoBehaviour
     IEnumerator DamegeProcess()
     {
         //0.5초 대기시켜!!
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
 
         print("상태변경 : DAMEGED -> MOVE");
         State = EnermyState.MOVE;
