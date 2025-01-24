@@ -1992,7 +1992,7 @@ MonoBehaviour:
   Move_Distance: 20
   Hp_Slider: {fileID: 471475624}
   MaxHp: 30
-  Attack_Dammege: 5
+  Attack_Dammege: 50
 --- !u!1001 &1449021114
 PrefabInstance:
   m_ObjectHideFlags: 0

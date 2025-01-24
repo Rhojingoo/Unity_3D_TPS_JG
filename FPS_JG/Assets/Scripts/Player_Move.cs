@@ -21,6 +21,7 @@ public class Player_Move : MonoBehaviour
 
     public bool IsJump = false;
     public float yVelocity = 0f;
+    bool Die = false;
 
 
     // Start is called before the first frame update
@@ -35,13 +36,21 @@ public class Player_Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (PlayerHP <= 0 && !Die)
+        {
+            Die = true;
+            Anim.SetTrigger("DIE");
+        }
+
+        Hp_Slider.value = (float)Hp / (float)MaxHp;
+
         if (GameManager.Gm.State != GameManager.GameState.Run)
         {
             return;
         }
-        if (GameManager.Gm.State != GameManager.GameState.Run) return;
 
-        // 1) 입력
+
+            // 1) 입력
         float h = Input.GetAxis("Horizontal"); // -1~+1
         float v = Input.GetAxis("Vertical");   // -1~+1
         Vector2 inputDir = new Vector2(h, v);
@@ -107,11 +116,11 @@ public class Player_Move : MonoBehaviour
         }
 
         // → Animator에 전달
-        Anim.SetFloat("MoveMotion", moveDir.magnitude);
-        Anim.SetFloat("Speed", speed);
-        Anim.SetFloat("Angle", angle);
+        Anim.SetFloat("MoveMotion", inputDir.magnitude);
+        //Anim.SetFloat("Speed", speed);
+        //Anim.SetFloat("Angle", angle);
 
-        Hp_Slider.value = (float)Hp / (float)MaxHp;
+        //Hp_Slider.value = (float)Hp / (float)MaxHp;
     }
     void basemove()
     {

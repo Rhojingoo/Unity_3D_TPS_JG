@@ -7,6 +7,7 @@ using UnityEngine;
 public class Player_Fire : MonoBehaviour
 {
     public GameObject Fire_Position;
+    Animator Anim;
 
     //--------- (A) 총알(수류탄) 풀 관련 -----------
     GameObject[] Bullet_ObjectPool;
@@ -25,6 +26,8 @@ public class Player_Fire : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Anim = GetComponentInChildren<Animator>();
+
         // (A) 총알(폭탄) 풀: 예시만 있고, 아직 안 쓰고 있는 상태
         //Bullet_ObjectPool = new GameObject[Bullet_PoolSize];
         //for (int i = 0; i < Bullet_PoolSize; i++)
@@ -58,6 +61,12 @@ public class Player_Fire : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            if (Anim.GetFloat("MoveMotion") == 0)
+            {
+                Anim.SetTrigger("ATTACK");
+            }
+
+
             Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
             RaycastHit hitInfo = new RaycastHit();
 
