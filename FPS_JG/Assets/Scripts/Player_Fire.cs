@@ -137,6 +137,7 @@ public class Player_Fire : MonoBehaviour
     }
 
 
+
     GameObject GetEffectFromPool()
     {
         for (int i = 0; i < Effect_ObjectPool.Length; i++)
