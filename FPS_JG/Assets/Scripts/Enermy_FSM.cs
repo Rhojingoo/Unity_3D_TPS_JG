@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.AI;
 
 public class Enermy_FSM : MonoBehaviour
 {
@@ -16,6 +16,7 @@ public class Enermy_FSM : MonoBehaviour
         DIE
     }
 
+    NavMeshAgent nav;
     Animator Anim;
     Transform player;
     CharacterController CC;
@@ -49,8 +50,8 @@ public class Enermy_FSM : MonoBehaviour
         player = GameObject.Find("Player").transform;
 
         CC = GetComponent<CharacterController>();
+        nav = GetComponent<NavMeshAgent>();
 
-       
         Hp = MaxHp;
     }
 
@@ -103,9 +104,14 @@ public class Enermy_FSM : MonoBehaviour
         }
         else if (Vector3.Distance(transform.position, player.position) > Attack_Distance)
         {
-            Vector3 Dir = (player.position - transform.position).normalized;
-            CC.Move(Dir * Move_Speed * Time.deltaTime);
-            transform.forward = Dir;   
+            //Vector3 Dir = (player.position - transform.position).normalized;
+            //CC.Move(Dir * Move_Speed * Time.deltaTime);
+            //transform.forward = Dir;   
+            nav.isStopped = true;
+            nav.ResetPath();
+
+            nav.stoppingDistance = Attack_Distance;
+            nav.SetDestination(player.position);
         }
         else
         {
@@ -120,12 +126,17 @@ public class Enermy_FSM : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, OriginPos) > 0.1f)
         {
-            Vector3 Dir = (OriginPos - transform.position).normalized;
-            CC.Move(Dir * Move_Speed * Time.deltaTime);
-            transform.forward = Dir;
+            //Vector3 Dir = (OriginPos - transform.position).normalized;
+            //CC.Move(Dir * Move_Speed * Time.deltaTime);
+            //transform.forward = Dir;
+            nav.SetDestination(OriginPos);
+            nav.stoppingDistance = 0;
         }
         else
         {
+            nav.isStopped = true;
+            nav.ResetPath();
+
             transform.position = OriginPos;
             transform.rotation = OriginRot;
 
@@ -177,6 +188,11 @@ public class Enermy_FSM : MonoBehaviour
 
         print("상태변경 : 아파");
         Hp -= Dam;
+
+        nav.isStopped = true;
+        nav.ResetPath();
+
+
         if (Hp > 0)
         {
             State = EnermyState.DAMEGED;
