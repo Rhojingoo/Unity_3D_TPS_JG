@@ -90,12 +90,17 @@ public class Player_Fire : MonoBehaviour
         else if (Input.GetMouseButtonDown(1))
         {
             print("수류탄 발사");
-            GameObject Bomb = Instantiate(Bomb_Factory);
-            Bomb.transform.position = Fire_Position.transform.position;
-
-            Rigidbody rb = Bomb.GetComponent<Rigidbody>();
-            rb.AddForce(Camera.main.transform.forward * Throw_Power, ForceMode.Impulse);
+            Anim.SetTrigger("BOMB");
         }
+    }
+
+    public void BombFire()
+    {
+        GameObject Bomb = Instantiate(Bomb_Factory);
+        Bomb.transform.position = Fire_Position.transform.position;
+
+        Rigidbody rb = Bomb.GetComponent<Rigidbody>();
+        rb.AddForce(Camera.main.transform.forward * Throw_Power, ForceMode.Impulse);
     }
 
 

@@ -22,4 +22,9 @@ public class Attack_Event : MonoBehaviour
     {
         PF.GunFire();
     }
+
+    void PlayerBomb()
+    {
+        PF.BombFire();
+    }
 }
