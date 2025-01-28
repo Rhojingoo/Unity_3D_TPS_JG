@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ public class Player_Fire : MonoBehaviour
 {
     public GameObject Fire_Position;
     Animator Anim;
+    bool isHitSomething = false;
 
     //--------- (A) 총알(수류탄) 풀 관련 -----------
     GameObject[] Bullet_ObjectPool;
@@ -22,6 +24,9 @@ public class Player_Fire : MonoBehaviour
     GameObject[] Effect_ObjectPool;
     public int Bullet_Power = 15;
     //ParticleSystem Ps;
+
+    Ray ray;
+    RaycastHit hitInfo;
 
     // Start is called before the first frame update
     void Start()
@@ -61,75 +66,23 @@ public class Player_Fire : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            if (Anim.GetFloat("MoveMotion") == 0)
+            ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
+            hitInfo = new RaycastHit();
+            isHitSomething = Physics.Raycast(ray, out hitInfo);
+            if (isHitSomething)
             {
-                Anim.SetTrigger("ATTACK");
-            }
-
-
-            Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
-            RaycastHit hitInfo = new RaycastHit();
-
-
-            if (Physics.Raycast(ray, out hitInfo))
-            {
-
-                if (hitInfo.transform.gameObject.layer == LayerMask.NameToLayer("Enermy"))
+                if (hitInfo.transform.gameObject.layer == LayerMask.NameToLayer("Player"))
                 {
-                    print("플레이어 총솼어");
-                    Enermy_FSM Monster = hitInfo.transform.GetComponent<Enermy_FSM>();
-                    Monster.Hit_Enermy(Bullet_Power);
-                }
-                else 
-                {
-                    GameObject effectObj = GetEffectFromPool();
-                    if (effectObj != null)
-                    {
-                        // 위치/회전 설정
-                        effectObj.transform.position = hitInfo.point;
-
-                        // 원하는 회전 처리 (예: 카메라 방향 보정)
-                        effectObj.transform.LookAt(Camera.main.transform);
-                        effectObj.transform.Rotate(0f, -90f, 0f);
-
-                        // 활성화하여 파티클 재생
-                        effectObj.SetActive(true);
-                        ParticleSystem ps = effectObj.GetComponent<ParticleSystem>();
-                        if (ps != null)
-                            ps.Play();
-                    }
-
-
-                    //Bullet_Effect.transform.position = hitInfo.point;
-                    //GameObject effectObj = Instantiate(Bullet_Effect, hitInfo.point, Quaternion.identity);
-                    //ParticleSystem effectPs = effectObj.GetComponent<ParticleSystem>();               
-
-                    //if (effectPs != null)
-                    //{
-                    //    //EulerAngles를 통째로 대입하는 방법
-                    //    //effectPs.transform.eulerAngles = new Vector3(0f, 90f, 0f);
-                    //    //Quaternion.Euler를 사용하여 대입
-                    //    //effectPs.transform.rotation = Quaternion.Euler(0f, 90f, 0f);
-
-
-                    //    //충돌된 물체의 법선벡터 회전(보통은 이렇게 하면 될듯)
-                    //    //effectPs.transform.forward = hitInfo.normal;
-
-                    //    //카메라를 바라보는 방향으로 회전(이미지 자체가 옆으로 돌아 있어서서 설정변경)
-                    //    effectPs.transform.LookAt(Camera.main.transform);
-                    //    effectPs.transform.Rotate(0f, -90f, 0f);
-
-                    //    effectPs.Play();
-                    //}
-
-                    //// print("레이 확인 한다");
-                    // //Bullet_Effect.transform.position = hitInfo.point;
-                    // // Ps.Play();
+                    //print("플레이어 총맞음");
+                    GameManager.Gm.SortPlayerAttack();
+                    return;
                 }
 
-
-
-
+                //if (Anim.GetFloat("MoveMotion") == 0)
+                {
+                    print("플레이어 총맞음");
+                    Anim.SetTrigger("ATTACK");
+                }    
 
             }
 
@@ -145,6 +98,51 @@ public class Player_Fire : MonoBehaviour
         }
     }
 
+
+    public void GunFire()
+    {
+        if (hitInfo.transform == null)
+        {
+            Debug.LogWarning("No valid hitInfo to process.");
+            return;
+        }
+
+
+        if (hitInfo.transform.gameObject.layer == LayerMask.NameToLayer("Enermy"))
+        {
+            print("플레이어 총솼어");
+            Enermy_FSM Monster = hitInfo.transform.GetComponent<Enermy_FSM>();
+            Monster.Hit_Enermy(Bullet_Power);
+        }
+        else
+        {
+            if (isHitSomething)
+            {
+                print("허공발사");
+                GetFireEffect();
+            }
+        }
+    }
+
+    void GetFireEffect()
+    {
+        GameObject effectObj = GetEffectFromPool();
+        if (effectObj != null)
+        {
+            // 위치/회전 설정
+            effectObj.transform.position = hitInfo.point;
+
+            // 원하는 회전 처리 (예: 카메라 방향 보정)
+            effectObj.transform.LookAt(Camera.main.transform);
+            effectObj.transform.Rotate(0f, -90f, 0f);
+
+            // 활성화하여 파티클 재생
+            effectObj.SetActive(true);
+            ParticleSystem ps = effectObj.GetComponent<ParticleSystem>();
+            if (ps != null)
+                ps.Play();
+        }
+    }
 
 
     GameObject GetEffectFromPool()

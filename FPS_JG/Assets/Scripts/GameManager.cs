@@ -60,4 +60,19 @@ public class GameManager : MonoBehaviour
         GameLable.SetActive(false);
         State = GameState.Run;
     }
+
+    public void SortPlayerAttack()
+    {
+        StartCoroutine(ImpossibleAttack());    
+    }
+
+    IEnumerator ImpossibleAttack()
+    {
+        GameLable.SetActive(true);
+        GameText.text = "CannotAttackYourself";
+        GameText.color = new Color32(255, 0, 0, 255);
+
+        yield return new WaitForSeconds(0.5f);
+        GameLable.SetActive(false);
+    }
 }

@@ -73,11 +73,13 @@ public class Player_Move : MonoBehaviour
         {
             if (IsJump)
             {
+                Anim.SetTrigger("JUMPEND");
                 IsJump = false;
                 yVelocity = 0f;
             }
             if (Input.GetButtonDown("Jump"))
             {
+                Anim.SetTrigger("JUMPSTART");
                 yVelocity = Jump_Power;
                 IsJump = true;
             }
