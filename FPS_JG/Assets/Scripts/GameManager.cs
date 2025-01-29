@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Gm;
     public GameObject GameLable;
+    public GameObject GameOption;
     Text GameText;
     Player_Move player;
 
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
     { 
         Ready,
         Run,
+        Pause,
         GameOver
     }
 
@@ -48,6 +50,10 @@ public class GameManager : MonoBehaviour
             GameLable.SetActive(true);
             GameText.text = "Game Over";
             GameText.color = new Color32(255, 0, 0, 255);
+
+            Transform Buttons = GameText.transform.GetChild(0);
+            Buttons.gameObject.SetActive(true);
+
             State = GameState.GameOver;
         }
     }
@@ -74,5 +80,30 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
         GameLable.SetActive(false);
+    }
+
+    public void OpenOptionWindow()
+    {
+        GameOption.SetActive(true);
+        Time.timeScale = 0f;
+        State = GameState.Pause;
+    }
+
+    public void CloseOptionWindow()
+    {
+        GameOption.SetActive(false);
+        Time.timeScale = 1f;
+        State = GameState.Run;
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void QuitGame()
+    { 
+        Application.Quit();
     }
 }
