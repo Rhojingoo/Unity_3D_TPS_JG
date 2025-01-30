@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LoginScene.unity
     guid: 2b31160cd77117d4b905c952f471cbc2
   - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 0dda3b2d14744cb47b8eaab80db0fcae
+  - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 4839cf7b08e46f74ab7a2f8b80909ed6
   m_configObjects: {}
