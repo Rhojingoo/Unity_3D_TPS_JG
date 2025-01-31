@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1904
     height: 973
   m_ShowMode: 4
-  m_Title: "\uD504\uB85C\uC81D\uD2B8"
+  m_Title: "\uC778\uC2A4\uD399\uD130"
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 76
+  controlID: 40
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 75
+  controlID: 146
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -219,8 +219,8 @@ MonoBehaviour:
     y: 0
     width: 295
     height: 923
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -498,8 +498,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a69fffff
-      m_LastClickedID: 0
+      m_SelectedIDs: d48effff
+      m_LastClickedID: -28972
       m_ExpandedIDs: 2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -565,7 +565,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 2851
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -616,7 +616,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Pack/KayKit_Skeletons_1.0_FREE/characters/fbx
+    - Assets/Pack/Terain
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -624,30 +624,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Pack/KayKit_Skeletons_1.0_FREE/characters/fbx
+  - Assets/Pack/Terain
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\USER-PC\Documents\GitHub\Unity_3D_FPS_JG\FPS_JG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d6880000
-    m_LastClickedID: 35030
-    m_ExpandedIDs: 0000000004870000088700000a8700000c8700000e87000010870000128700001487000016870000188700001a8700001c8700001e87000020870000228700002487000026870000
+    scrollPos: {x: 0, y: 271}
+    m_SelectedIDs: 4a890000
+    m_LastClickedID: 35146
+    m_ExpandedIDs: 000000007487000076870000788700007a8700007c8700007e87000080870000828700008487000086870000888700008a8700008c8700008e870000908700009287000094870000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: fbx
-      m_OriginalName: fbx
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 35030
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -661,7 +661,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000487000006870000088700000a8700000c8700000e87000010870000128700001487000016870000188700001a8700001c8700001e87000020870000228700002487000026870000288700002a870000
+    m_ExpandedIDs: 000000007487000076870000788700007a8700007c8700007e87000080870000828700008487000086870000888700008a8700008c8700008e870000908700009287000094870000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -688,7 +688,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 26780000f05c00002e6c0000c05a0000b6610000ce5a0000a2710000986e0000000000003ee100000cdd00004e5c0000565e0000143d0000ca970000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1273,7 +1273,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.07697247, y: 0.8766096, z: -0.45282847, w: 0.14239615}
     speed: 2
-    m_Value: {x: 0.07697246, y: 0.8766096, z: -0.45282844, w: 0.14239614}
+    m_Value: {x: 0.07698404, y: 0.87674135, z: -0.45289654, w: 0.14241755}
   m_Size:
     m_Target: 32.118343
     speed: 2
