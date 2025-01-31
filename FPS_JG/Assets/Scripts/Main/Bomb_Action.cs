@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bomb_Action : MonoBehaviour
 {
     public GameObject BombEffect;
-    public int Dammage = 10;
+    int Dammage = 50;
     public float explosionRadius = 5f;
 
     // Start is called before the first frame update

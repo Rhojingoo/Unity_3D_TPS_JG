@@ -15,14 +15,14 @@ public class Player_Fire : MonoBehaviour
     GameObject[] Bullet_ObjectPool;
     public int Bullet_PoolSize = 10;
     public GameObject Bomb_Factory;
-    public float Throw_Power = 15f;
+    public float Throw_Power = 55f;
 
 
     // --------- (B) 이펙트 풀 관련 ----------
     public GameObject Bullet_Effect;     // 파티클 프리팹
     public int Effect_PoolSize = 10;     // 풀 크기
     GameObject[] Effect_ObjectPool;
-    public int Bullet_Power = 15;
+    public int Bullet_Power = 35;
     //ParticleSystem Ps;
 
     Ray ray;

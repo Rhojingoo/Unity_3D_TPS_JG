@@ -17,7 +17,8 @@ public class GameManager : MonoBehaviour
         Ready,
         Run,
         Pause,
-        GameOver
+        GameOver,
+        Win
     }
 
     public GameState State;
@@ -107,4 +108,23 @@ public class GameManager : MonoBehaviour
     { 
         Application.Quit();
     }
+
+
+    public void EndingGame()
+    {
+       // Time.timeScale = 1f;
+        State = GameState.Win;
+        StartCoroutine(NextEndingScene());
+        // SceneManager.LoadScene(1);
+    }
+
+    IEnumerator NextEndingScene()
+    {
+        yield return new WaitForSeconds(2f);
+        GameLable.SetActive(true);
+        GameText.text = "YouWin";
+        yield return new WaitForSeconds(5.5f);
+        GameLable.SetActive(false);        
+    }
+
 }

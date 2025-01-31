@@ -21,9 +21,9 @@ public class Enermy_FSM : MonoBehaviour
     Transform player;
     CharacterController CC;
     EnermyState State;
-    float Find_Distance = 8f;
+    float Find_Distance = 25f;
     float Attack_Distance = 2f;
-    public float Move_Distance = 20f;
+    float Move_Distance = 50f;
     Vector3 OriginPos;
     Quaternion OriginRot;
 
@@ -34,7 +34,7 @@ public class Enermy_FSM : MonoBehaviour
     public int MaxHp = 30;
     int Hp = 0;
     float Attack_Delay = 2f;
-    public int Attack_Dammege = 15;
+    int Attack_Dammege = 10;
 
 
     // Start is called before the first frame update
@@ -181,7 +181,7 @@ public class Enermy_FSM : MonoBehaviour
 
     public void Hit_Enermy(int Dam)
     {
-        if(State == EnermyState.DIE || State == EnermyState.RETURN || State == EnermyState.DAMEGED)
+        if(State == EnermyState.DIE ||  State == EnermyState.DAMEGED)//State == EnermyState.RETURN ||
         { 
            return; 
         }
