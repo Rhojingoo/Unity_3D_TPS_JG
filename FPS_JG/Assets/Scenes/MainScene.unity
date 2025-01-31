@@ -1305,6 +1305,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 872399480}
     m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0028781332
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0023799306
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99753857
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.070121
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -8.042
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
+      propertyPath: m_Name
+      value: Skeleton_Mage
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: -9094387910585766942, guid: 41034989815ca274bb63600fb9d9844a, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -1510,54 +1558,6 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8905466736296333193, guid: 41034989815ca274bb63600fb9d9844a, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0028781332
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0023799306
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.99753857
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.070121
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -8.042
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
-      propertyPath: m_Name
-      value: Skeleton_Mage
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d5975be4528238c4fa25157ce26b24d9, type: 3}
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
