@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.AI;
+using Unity.VisualScripting;
 
 public class Enermy_FSM : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class Enermy_FSM : MonoBehaviour
 
     NavMeshAgent nav;
     Animator Anim;
+    AudioSource Sound;
     Transform player;
     CharacterController CC;
     EnermyState State;
@@ -41,7 +43,8 @@ public class Enermy_FSM : MonoBehaviour
     void Start()
     {
         Anim = transform.GetComponentInChildren<Animator>();
-
+        Sound = GetComponent<AudioSource>();
+        Sound.Stop();
         State = EnermyState.IDLE;
 
         OriginPos = transform.position;
@@ -220,14 +223,14 @@ public class Enermy_FSM : MonoBehaviour
     IEnumerator DamegeProcess()
     {
         //0.5초 대기시켜!!
-        yield return new WaitForSeconds(1f);
-
+        yield return new WaitForSeconds(1f);       
         print("상태변경 : DAMEGED -> MOVE");
         State = EnermyState.MOVE;
     }
 
     void Die()
     {
+        Sound.Play();
         StopAllCoroutines();
         StartCoroutine(DieProcess());
     }

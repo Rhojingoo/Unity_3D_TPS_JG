@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
         Run,
         Pause,
         GameOver,
+        FindFriend,
         Win
     }
 
@@ -64,6 +65,11 @@ public class GameManager : MonoBehaviour
             Buttons.gameObject.SetActive(true);
 
             State = GameState.GameOver;
+        }
+
+       if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            OpenOptionWindow();
         }
     }
 
@@ -116,6 +122,20 @@ public class GameManager : MonoBehaviour
     public void QuitGame()
     { 
         Application.Quit();
+    }
+
+
+    public void Find_Friend()
+    {
+        State = GameState.FindFriend;
+        GameLable.SetActive(true);
+        GameText.text = "Input F";
+    }
+
+    public void Exit_Friend()
+    {
+        State = GameState.Run;
+        GameLable.SetActive(false);
     }
 
 

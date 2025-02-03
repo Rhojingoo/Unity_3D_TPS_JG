@@ -44,13 +44,12 @@ public class Player_Move : MonoBehaviour
 
         Hp_Slider.value = (float)Hp / (float)MaxHp;
 
-        if (GameManager.Gm.State != GameManager.GameState.Run)
+        if (GameManager.Gm.State != GameManager.GameState.Run && GameManager.Gm.State != GameManager.GameState.FindFriend)
         {
             return;
         }
 
-
-            // 1) 입력
+        // 1) 입력
         float h = Input.GetAxis("Horizontal"); // -1~+1
         float v = Input.GetAxis("Vertical");   // -1~+1
         Vector2 inputDir = new Vector2(h, v);

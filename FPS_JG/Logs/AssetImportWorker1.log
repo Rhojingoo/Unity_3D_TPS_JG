@@ -15,7 +15,7 @@ C:/Users/USER-PC/Documents/GitHub/Unity_3D_FPS_JG/FPS_JG
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64624
+57857
 Successfully changed project path to: C:/Users/USER-PC/Documents/GitHub/Unity_3D_FPS_JG/FPS_JG
 C:/Users/USER-PC/Documents/GitHub/Unity_3D_FPS_JG/FPS_JG
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/USER-PC/Documents/GitHub/Unity_3D_FPS_JG/FPS_JG
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28360]  Target information:
+Player connection [27076]  Target information:
 
-Player connection [28360]  * "[IP] 192.168.219.161 [Port] 0 [Flags] 2 [Guid] 3368143952 [EditorId] 3368143952 [Version] 1048832 [Id] WindowsEditor(7,´í±¸ÄÄ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [27076]  * "[IP] 192.168.219.161 [Port] 0 [Flags] 2 [Guid] 2567468869 [EditorId] 2567468869 [Version] 1048832 [Id] WindowsEditor(7,´í±¸ÄÄ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28360] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [28360] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27076] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27076] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 14.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008864 seconds.
-- Loaded All Assemblies, in  0.248 seconds
+Registered in 0.009581 seconds.
+- Loaded All Assemblies, in  0.255 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.179 seconds
-Domain Reload Profiling: 425ms
+- Finished resetting the current domain, in  0.175 seconds
+Domain Reload Profiling: 427ms
 	BeginReloadAssembly (78ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (23ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (91ms)
+	LoadAllAssembliesAndSetupDomain (95ms)
 		LoadAssemblies (75ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (89ms)
-			TypeCache.Refresh (88ms)
-				TypeCache.ScanAssembly (79ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (81ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (179ms)
+	FinalizeReload (175ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (151ms)
+		SetupLoadedEditorAssemblies (145ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (98ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,50 +118,50 @@ Domain Reload Profiling: 425ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.582 seconds
+- Loaded All Assemblies, in  0.612 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.543 seconds
-Domain Reload Profiling: 1120ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1193ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (396ms)
-		LoadAssemblies (272ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (439ms)
+		LoadAssemblies (286ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (189ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (149ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (543ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (168ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (587ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (414ms)
+		SetupLoadedEditorAssemblies (453ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (297ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6808 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 162 unused Assets / (15.0 MB). Loaded Objects now: 7162.
-Memory consumption went from 405.6 MB to 390.6 MB.
-Total: 6.244800 ms (FindLiveObjects: 0.458400 ms CreateObjectMapping: 0.333800 ms MarkObjects: 2.781400 ms  DeleteObjects: 2.670000 ms)
+Memory consumption went from 405.7 MB to 390.7 MB.
+Total: 5.433200 ms (FindLiveObjects: 0.416600 ms CreateObjectMapping: 0.130700 ms MarkObjects: 2.291300 ms  DeleteObjects: 2.593900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,392 +179,1393 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14726.858197 seconds.
-  path: Assets/Prefabs/Bomb.prefab
-  artifactKey: Guid(3f7ea88c323d66a4fa4568daf770b33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bomb.prefab using Guid(3f7ea88c323d66a4fa4568daf770b33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'af4a668ff96df4c04a6d3ade7618f30d') in 0.068344 seconds
+  Time since last request: 26858.647425 seconds.
+  path: Assets/Pack/Stylized Weapon Pack/M4 Scoped Assault Rifle/Audio
+  artifactKey: Guid(5c85c67b223462648b72696ed10b9578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Stylized Weapon Pack/M4 Scoped Assault Rifle/Audio using Guid(5c85c67b223462648b72696ed10b9578) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7f7c0aec36d7d29836adc55900ceff67') in 0.001666 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 47
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 383.695958 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/covering fire1.ogg
-  artifactKey: Guid(f23428531839fb443b6ba1692ec44ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/covering fire1.ogg using Guid(f23428531839fb443b6ba1692ec44ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pack/Stylized Weapon Pack/M4 Scoped Assault Rifle/Audio/SFX_Assault Single Shot.wav
+  artifactKey: Guid(0e5ec5d798406aa4699be8c44dd7599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Stylized Weapon Pack/M4 Scoped Assault Rifle/Audio/SFX_Assault Single Shot.wav using Guid(0e5ec5d798406aa4699be8c44dd7599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f27532f4b02ef7a2492380604ce82738') in 0.029768 seconds
+ -> (artifact id: '33c4f04457f66ae4d68de3da48389355') in 0.070177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.485 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.306 seconds
+Domain Reload Profiling: 1786ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1306ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (356ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6577 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 156 unused Assets / (15.0 MB). Loaded Objects now: 7175.
+Memory consumption went from 355.6 MB to 340.6 MB.
+Total: 5.084000 ms (FindLiveObjects: 0.391000 ms CreateObjectMapping: 0.210100 ms MarkObjects: 2.108400 ms  DeleteObjects: 2.374000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.376 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.469 seconds
+Domain Reload Profiling: 1840ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1470ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6578 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 156 unused Assets / (15.0 MB). Loaded Objects now: 7178.
+Memory consumption went from 355.8 MB to 340.8 MB.
+Total: 7.102800 ms (FindLiveObjects: 0.515100 ms CreateObjectMapping: 0.411200 ms MarkObjects: 2.737600 ms  DeleteObjects: 3.438200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.495 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.344 seconds
+Domain Reload Profiling: 1834ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1345ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (386ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6578 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 156 unused Assets / (15.0 MB). Loaded Objects now: 7181.
+Memory consumption went from 355.8 MB to 340.9 MB.
+Total: 6.561400 ms (FindLiveObjects: 0.888200 ms CreateObjectMapping: 0.497500 ms MarkObjects: 2.123400 ms  DeleteObjects: 3.051300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.476 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.532 seconds
+Domain Reload Profiling: 2003ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 7.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6578 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 156 unused Assets / (15.0 MB). Loaded Objects now: 7184.
+Memory consumption went from 355.9 MB to 340.9 MB.
+Total: 8.688900 ms (FindLiveObjects: 0.601000 ms CreateObjectMapping: 0.558000 ms MarkObjects: 3.341500 ms  DeleteObjects: 4.187500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 411.578705 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/pain a1.ogg
+  artifactKey: Guid(a4f9d2adec7472147bd1d091aaf0cd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/pain a1.ogg using Guid(a4f9d2adec7472147bd1d091aaf0cd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cf2436a996017a906d654d85c54c8fcc') in 0.038684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/pain c2.ogg
+  artifactKey: Guid(a188a6544205f7b45bfa2b20cca89a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/pain c2.ogg using Guid(a188a6544205f7b45bfa2b20cca89a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '25be0e881d9f384d404569c941c31123') in 0.011916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/pain b2.ogg
+  artifactKey: Guid(9181122e3494aec488aba8ab69565329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/pain b2.ogg using Guid(9181122e3494aec488aba8ab69565329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ada732646d90ab4675523b3b950ae5c') in 0.011572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/pain c2.ogg
+  artifactKey: Guid(05ade8b750414d84e9f492de8941a83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/pain c2.ogg using Guid(05ade8b750414d84e9f492de8941a83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c74ce3ff2aafa8394e9067cefdc4471') in 0.010297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/pain c1.ogg
+  artifactKey: Guid(bd79384265869f941807bd45228d02f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/pain c1.ogg using Guid(bd79384265869f941807bd45228d02f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '39afe419751f59ecc08204f18b31ed45') in 0.010696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/pain a3.ogg
+  artifactKey: Guid(be1cff2ec9bba1e48abcac5214959af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/pain a3.ogg using Guid(be1cff2ec9bba1e48abcac5214959af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '19e5755d471fbdf3896aad00f6f69b52') in 0.012399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/pain b3.ogg
+  artifactKey: Guid(e0bfb35a1086cbe40a42e19d8561703a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/pain b3.ogg using Guid(e0bfb35a1086cbe40a42e19d8561703a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '031f78ff7461f730ea01f5822a659213') in 0.010311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/pain b2.ogg
+  artifactKey: Guid(f3ebf1fadbeb7d74d87ad9b64bd4c801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/pain b2.ogg using Guid(f3ebf1fadbeb7d74d87ad9b64bd4c801) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5fb3089306ef62aed306a3af9bf60187') in 0.011831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/pain a3.ogg
+  artifactKey: Guid(0690b59d7b94ba643849d70142c92b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/pain a3.ogg using Guid(0690b59d7b94ba643849d70142c92b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de336a37650bf65ffb0946e68f6f6c6a') in 0.010894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/pain d3.ogg
+  artifactKey: Guid(10cc5ea9e99c3f04f8585de058c96c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/pain d3.ogg using Guid(10cc5ea9e99c3f04f8585de058c96c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f84544a8b10780f4a65a56f5665e36d') in 0.008905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/pain c4.ogg
+  artifactKey: Guid(cd7c890c8ddc4094da5d78ef32fc8d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/pain c4.ogg using Guid(cd7c890c8ddc4094da5d78ef32fc8d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a26461b120293cc991e42bd8094b1815') in 0.011185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/pain d3.ogg
+  artifactKey: Guid(3898a8cfc2aa55e48ad2764dab18449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/pain d3.ogg using Guid(3898a8cfc2aa55e48ad2764dab18449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c7d5f371159788d01ea111a1beef574') in 0.010634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 237.285430 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Fun/Emotes/Panting Instant.wav
+  artifactKey: Guid(8d38e2ef1fa3a7645b406a453c572acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Fun/Emotes/Panting Instant.wav using Guid(8d38e2ef1fa3a7645b406a453c572acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cf8f0f888ff77e1c8d975f281fb6b1d2') in 0.017244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/require support2.ogg
+  artifactKey: Guid(dc0e682588f72c448abb42d8137fb7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/require support2.ogg using Guid(dc0e682588f72c448abb42d8137fb7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00ad0560d165d6825ee399ae7b0481a5') in 0.112485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/require support2.ogg
+  artifactKey: Guid(958e5a21d37662c469ed2086fb169388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/require support2.ogg using Guid(958e5a21d37662c469ed2086fb169388) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eea2c09510be8e1178a6da587fddd9fb') in 0.044605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/roger that1.ogg
+  artifactKey: Guid(edf797d44396fff48b02c2e146359972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/roger that1.ogg using Guid(edf797d44396fff48b02c2e146359972) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2720f473d8f1a933251ec43139684868') in 0.045781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/roger that2.ogg
+  artifactKey: Guid(aea46c34399c02c45a2bce3163ac20a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/roger that2.ogg using Guid(aea46c34399c02c45a2bce3163ac20a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a4261454fe75117aa2a2b4052a36c921') in 0.026272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/roger that2.ogg
+  artifactKey: Guid(00cda8c3a02961c40b589ec006ddfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/roger that2.ogg using Guid(00cda8c3a02961c40b589ec006ddfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ca4ed3bfdced4daa1d5916d21b6fb425') in 0.029874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/roger3.ogg
+  artifactKey: Guid(f7892684645b3bf409d098c41995d17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/roger3.ogg using Guid(f7892684645b3bf409d098c41995d17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b28faaafc6684d2fccfb4823320264f9') in 0.013637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/request immediate support1.ogg
+  artifactKey: Guid(4724342d5ecad614e8efed17acc462be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/request immediate support1.ogg using Guid(4724342d5ecad614e8efed17acc462be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b5b232697b9d99fbbb7839dd1151544') in 0.013723 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Pack/Game Voices/Young Man/Sounds/Fun/Steps/Footstep Grass.wav
-  artifactKey: Guid(1d8baee9558b81b4eb19497ad9610a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Game Voices/Young Man/Sounds/Fun/Steps/Footstep Grass.wav using Guid(1d8baee9558b81b4eb19497ad9610a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/roger that3.ogg
+  artifactKey: Guid(c4d9553e53e365546b6b62c055fb509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/roger that3.ogg using Guid(c4d9553e53e365546b6b62c055fb509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '012fa097efc0be4cc3e7f9744a111a3d') in 0.013736 seconds
+ -> (artifact id: '7dbbd7b31a99826a2a239d95e6b0abf9') in 0.012025 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/get down1.ogg
-  artifactKey: Guid(2e1ffbe3b1dcf8a42b4817f6f0accd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/get down1.ogg using Guid(2e1ffbe3b1dcf8a42b4817f6f0accd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/phew2.ogg
+  artifactKey: Guid(524ea53921cbf5548bbe4c71c494b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/phew2.ogg using Guid(524ea53921cbf5548bbe4c71c494b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '31d3736a2c1371a6dec1655c0178743d') in 0.012350 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/enemy engaged2.ogg
-  artifactKey: Guid(8debcbf3bd4d14c4ea4c877fff233330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/enemy engaged2.ogg using Guid(8debcbf3bd4d14c4ea4c877fff233330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6ef0d9a686fcfb3bf073b1216fbd5050') in 0.025367 seconds
+ -> (artifact id: '6234dc5260a5b4d187ad9db88ec3bb8e') in 0.011975 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/engaging enemy2.ogg
-  artifactKey: Guid(ea5f296718bc54b4e956afbee9d98195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/engaging enemy2.ogg using Guid(ea5f296718bc54b4e956afbee9d98195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/retreat2.ogg
+  artifactKey: Guid(fe114bd2dcd556f4b930bf1036659676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/retreat2.ogg using Guid(fe114bd2dcd556f4b930bf1036659676) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e2aecba4458c260d06b577d0648a8a4b') in 0.011833 seconds
+ -> (artifact id: '9dee01a40839c5c343d4e56728dd211b') in 0.010260 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/enemy engaged3.ogg
-  artifactKey: Guid(9dae78f3ca8af5d488bc6d57679e5332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/enemy engaged3.ogg using Guid(9dae78f3ca8af5d488bc6d57679e5332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/roger1.ogg
+  artifactKey: Guid(d7d5867e39b04ff4c8a66f01f0f702ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/roger1.ogg using Guid(d7d5867e39b04ff4c8a66f01f0f702ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b544f61ba1f1ba7089a743aabe7ee13e') in 0.016350 seconds
+ -> (artifact id: '143eff4ea4b3a0997c001a0519948e33') in 0.011039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MentalDreamsAssets/SoldierSoundsPack/reload.mp3
+  artifactKey: Guid(3c5c1d4d7b9307c458890a4beb12e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MentalDreamsAssets/SoldierSoundsPack/reload.mp3 using Guid(3c5c1d4d7b9307c458890a4beb12e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e789ab74da6841fb6166b248f2dca8c0') in 0.010131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/requesting assistance1.ogg
+  artifactKey: Guid(0e01e182789989841ba1a06f1a19624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/requesting assistance1.ogg using Guid(0e01e182789989841ba1a06f1a19624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe8dc5c88031d206ec2514f18e297fe8') in 0.013415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/require support1.ogg
+  artifactKey: Guid(cf33cd67af8e97548908c31bb6ed7178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/require support1.ogg using Guid(cf33cd67af8e97548908c31bb6ed7178) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f5a2540d0d9fc1c746ce680784ec519') in 0.011751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/require support1.ogg
+  artifactKey: Guid(52abfefce322c374092535c76bfcc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/require support1.ogg using Guid(52abfefce322c374092535c76bfcc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6743b52b8cbb57951972b2c4eeb322d5') in 0.011703 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engage the enemy1.ogg
-  artifactKey: Guid(0403d9667c994d6459ca75fa5349b11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engage the enemy1.ogg using Guid(0403d9667c994d6459ca75fa5349b11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/retreat1.ogg
+  artifactKey: Guid(81dc4639ad204d14fbd1d4b995f286ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/retreat1.ogg using Guid(81dc4639ad204d14fbd1d4b995f286ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8dcfdb5dfb4ab2a485aa1b99474320e5') in 0.011566 seconds
+ -> (artifact id: '6d1c6184fe6af45f76548b91472b1711') in 0.011048 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/get down2.ogg
-  artifactKey: Guid(bf6bae72012434548adc7ddeb4ca76be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/get down2.ogg using Guid(bf6bae72012434548adc7ddeb4ca76be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/phew1.ogg
+  artifactKey: Guid(030d803f78f1b7c48b4b2dbd950e617c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/phew1.ogg using Guid(030d803f78f1b7c48b4b2dbd950e617c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '88892c200fab04565042b0f6170b9021') in 0.021806 seconds
+ -> (artifact id: '3ad1740621d4314072ce5cfdf3eaefb3') in 0.012488 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engage the enemy2.ogg
-  artifactKey: Guid(4549fca7e633bb34d9d772b5864a25fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engage the enemy2.ogg using Guid(4549fca7e633bb34d9d772b5864a25fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/roger1.ogg
+  artifactKey: Guid(42d96d8da76fed546b26715074f41218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/roger1.ogg using Guid(42d96d8da76fed546b26715074f41218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4b9c4a8bff2a6fa9aab7f80983ebd881') in 0.012416 seconds
+ -> (artifact id: 'dda2265869991051e7a9b10ef899e1c0') in 0.010702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Fun/Emotes/Panting Slow.wav
+  artifactKey: Guid(857bc0628754f6347b88a131dfe0a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Fun/Emotes/Panting Slow.wav using Guid(857bc0628754f6347b88a131dfe0a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b1b70bd132a299f84dc6cf0f66c0a6bb') in 0.014967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.416568 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/order received3.ogg
+  artifactKey: Guid(f335c55605037ae4fa28d8f3c448a706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/order received3.ogg using Guid(f335c55605037ae4fa28d8f3c448a706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04eb4731372d9c1dcc57f60af1b364d7') in 0.011089 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/get down3.ogg
-  artifactKey: Guid(6ce492430264b6a4897cff3cb349fcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/get down3.ogg using Guid(6ce492430264b6a4897cff3cb349fcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/over2.ogg
+  artifactKey: Guid(875b7e1e3128c344d84e0a75cdd71a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/over2.ogg using Guid(875b7e1e3128c344d84e0a75cdd71a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '808860c5ddbf15150df77cab5ade8fe3') in 0.011557 seconds
+ -> (artifact id: 'ad4f3bcb94005c505af2e425d8801cf7') in 0.011571 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/get into position1.ogg
-  artifactKey: Guid(7c84bede40b71f74fab387bcf946eba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/get into position1.ogg using Guid(7c84bede40b71f74fab387bcf946eba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/over1.ogg
+  artifactKey: Guid(bce0da79fa0c0374795acabcd5c42891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/over1.ogg using Guid(bce0da79fa0c0374795acabcd5c42891) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5dd94cf52743cca2e812212f17825096') in 0.012656 seconds
+ -> (artifact id: 'f9b6e83eae5c926116fd898c0b5508bc') in 0.011184 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engaging target3.ogg
-  artifactKey: Guid(fb13f69a353b18e45a73662fe768cf0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engaging target3.ogg using Guid(fb13f69a353b18e45a73662fe768cf0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/out of range2.ogg
+  artifactKey: Guid(6ede62d111f472146a06df99e07f9f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/out of range2.ogg using Guid(6ede62d111f472146a06df99e07f9f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bfb75db86015d25196e273499d30d701') in 0.020828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pack/Grenade Sound FX/Grenade/Grenade7Short.wav
-  artifactKey: Guid(fd706038486fee041947a774223dc22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Grenade Sound FX/Grenade/Grenade7Short.wav using Guid(fd706038486fee041947a774223dc22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4fd262fd03aa16e20a8264f35057c733') in 0.018801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/grenade2.ogg
-  artifactKey: Guid(535df4051554598488aedf8d6d91c35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/grenade2.ogg using Guid(535df4051554598488aedf8d6d91c35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8ac6d173e72837580748fd270722e54f') in 0.012116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pack/Grenade Sound FX/Grenade/Grenade10Short.wav
-  artifactKey: Guid(d4aee29185389894b9cc0d8873904a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Grenade Sound FX/Grenade/Grenade10Short.wav using Guid(d4aee29185389894b9cc0d8873904a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5c210de958e19e6f9f3089e50364b816') in 0.015750 seconds
+ -> (artifact id: '147051df459e04ce7804d681ee4695c2') in 0.012308 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Pack/Grenade Sound FX/Grenade/Grenade10.wav
-  artifactKey: Guid(bf119238edb04e142b3374cace8cdd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Grenade Sound FX/Grenade/Grenade10.wav using Guid(bf119238edb04e142b3374cace8cdd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/out of range1.ogg
+  artifactKey: Guid(c1c8a56519afb4f4d81bb4db2c7fce56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/out of range1.ogg using Guid(c1c8a56519afb4f4d81bb4db2c7fce56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '95efa4c6110b58ab05cdd714278981ae') in 0.024327 seconds
+ -> (artifact id: 'ff16415639af72cc628ac56bf1e4a7e7') in 0.010822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/over2.ogg
+  artifactKey: Guid(0b8b784fbd037904cb1007f4082e27c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/over2.ogg using Guid(0b8b784fbd037904cb1007f4082e27c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '58fea28bca149ff0ab4fe450c9fa6dda') in 0.011794 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Pack/Grenade Sound FX/Different sounds/Impact Grenade.wav
-  artifactKey: Guid(419336aa8912ae0468e104596863a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Grenade Sound FX/Different sounds/Impact Grenade.wav using Guid(419336aa8912ae0468e104596863a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/over1.ogg
+  artifactKey: Guid(3f4e065397a18f34b84c3a8bcc21394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/over1.ogg using Guid(3f4e065397a18f34b84c3a8bcc21394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd727bd1d8e798f9c57e77458e0e96018') in 0.013998 seconds
+ -> (artifact id: 'c933acb484c88d7702922a74d1b00eaa') in 0.011088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.323907 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/opening fire3.ogg
+  artifactKey: Guid(37e04c7895219ad438e63e49f2e4e21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/opening fire3.ogg using Guid(37e04c7895219ad438e63e49f2e4e21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '674440274c31eed92734e3a9d79aed7e') in 0.010448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/order acknowledged1.ogg
+  artifactKey: Guid(5fee80895a3b36749a8ca9eee25396ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/order acknowledged1.ogg using Guid(5fee80895a3b36749a8ca9eee25396ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2ec1715d1d69a9c52215ab2ff46206a3') in 0.013498 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Pack/Grenade Sound FX/Grenade/Grenade8Short.wav
-  artifactKey: Guid(c1f8c36ebdb20024ea8a59ec457d582c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Grenade Sound FX/Grenade/Grenade8Short.wav using Guid(c1f8c36ebdb20024ea8a59ec457d582c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/order received2.ogg
+  artifactKey: Guid(404ac827923c24f41921425f7bece9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/order received2.ogg using Guid(404ac827923c24f41921425f7bece9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bc7f80790cbe2aff2ec79341cf53286e') in 0.015485 seconds
+ -> (artifact id: 'c70d885019e77c0481b8ea0deeecf8ad') in 0.011064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/order received1.ogg
+  artifactKey: Guid(749a0c932117daa4ebcaca706fab833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/order received1.ogg using Guid(749a0c932117daa4ebcaca706fab833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9391a198a27e25b3b916fe8ad213a1d6') in 0.010608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/open fire3.ogg
+  artifactKey: Guid(c5b0825ec889a374197bf20d61bbdaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/open fire3.ogg using Guid(c5b0825ec889a374197bf20d61bbdaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c45f5836fbf1789b5a208e0913a2703') in 0.012360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/open fire3.ogg
+  artifactKey: Guid(080497b89d3985d40a3bb7c39afedd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/open fire3.ogg using Guid(080497b89d3985d40a3bb7c39afedd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d3c83adf717f80f969765036ad24026') in 0.010656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/okie dokie3.ogg
+  artifactKey: Guid(bc42713b566e9aa4eab6948ebeda91f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/okie dokie3.ogg using Guid(bc42713b566e9aa4eab6948ebeda91f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8e88f0d8456346302cd3f2e0c1fbe82c') in 0.015875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/opening fire2.ogg
+  artifactKey: Guid(fec46643e81f2a24585f20d0786c9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/opening fire2.ogg using Guid(fec46643e81f2a24585f20d0786c9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6fcb91cb5200c175c03d3baee688ae6e') in 0.013860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/order acknowledged3.ogg
+  artifactKey: Guid(458e4522e0893834f811e5c2ced3acc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/order acknowledged3.ogg using Guid(458e4522e0893834f811e5c2ced3acc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '959912b108e79822c7ed24576d110836') in 0.012502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/order acknowledged3.ogg
+  artifactKey: Guid(2abf081fc6d4d724fb4ea4b5208ddf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/order acknowledged3.ogg using Guid(2abf081fc6d4d724fb4ea4b5208ddf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea16f79c0f7ea469505bf4dcc88f3282') in 0.010197 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/grenade2.ogg
-  artifactKey: Guid(c33482ae1a543f04c9fb633bd2e375a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/grenade2.ogg using Guid(c33482ae1a543f04c9fb633bd2e375a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/order acknowledged2.ogg
+  artifactKey: Guid(1af872a895923db4bbfa33eb47a0698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/order acknowledged2.ogg using Guid(1af872a895923db4bbfa33eb47a0698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c152a669a02f3d5b4f36d8056bdabfb1') in 0.013447 seconds
+ -> (artifact id: '17129312fe7350e885a8057527e075b5') in 0.013820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/order received1.ogg
+  artifactKey: Guid(e65bdc68f263b2945a1fdb52574a526f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/order received1.ogg using Guid(e65bdc68f263b2945a1fdb52574a526f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2042a5a0265e9fe2f9ab5f4ee32938cf') in 0.011918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/open fire1.ogg
+  artifactKey: Guid(89138c93371e3d247809878b40d4696f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/open fire1.ogg using Guid(89138c93371e3d247809878b40d4696f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2fc104475e99e5f235e5637ed2990c5') in 0.010863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.151373 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no problemo2.ogg
+  artifactKey: Guid(e1e04b721af5edd46b290c8f6a73d1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no problemo2.ogg using Guid(e1e04b721af5edd46b290c8f6a73d1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ed1391cc5373d041bc155004b6ac481') in 0.010094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no problemo3.ogg
+  artifactKey: Guid(27d5d89f482ff234a9871bc2b4afd569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no problemo3.ogg using Guid(27d5d89f482ff234a9871bc2b4afd569) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2abdcbb87601f02b04415f15d4bc0f2') in 0.012930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/okie dokie1.ogg
+  artifactKey: Guid(41fdc04ec0e33ec4597f60c348ebb7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/okie dokie1.ogg using Guid(41fdc04ec0e33ec4597f60c348ebb7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b7a471759341ad568add766c65f7dd1a') in 0.011140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no way3.ogg
+  artifactKey: Guid(0400ee043c1f2554db3187ffa9fb4c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no way3.ogg using Guid(0400ee043c1f2554db3187ffa9fb4c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c6dde51735e24b3cb811c636eabf2de') in 0.011679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/move out2.ogg
+  artifactKey: Guid(9adceea759d7729439a6bca331f6605d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/move out2.ogg using Guid(9adceea759d7729439a6bca331f6605d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2537cb1181ca652975743e61f1c4bd12') in 0.012740 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/covering fire2.ogg
-  artifactKey: Guid(89aed7b84f823a845bf429f826352267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/covering fire2.ogg using Guid(89aed7b84f823a845bf429f826352267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/no can do3.ogg
+  artifactKey: Guid(8e9943feae97b6f4db9f4114317f90eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/no can do3.ogg using Guid(8e9943feae97b6f4db9f4114317f90eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e5bae945e7d5653026fd50698bec6ef7') in 0.014396 seconds
+ -> (artifact id: '86f5ce917769aea458a2e83821210f9b') in 0.011337 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engaging target2.ogg
-  artifactKey: Guid(a8fd4be1012daef44b31c77934476480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engaging target2.ogg using Guid(a8fd4be1012daef44b31c77934476480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no can do1.ogg
+  artifactKey: Guid(a4695116328091344a5077920a2ab643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no can do1.ogg using Guid(a4695116328091344a5077920a2ab643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6dc79a0c8d16f643f44a3d61cb7b9a30') in 0.012512 seconds
+ -> (artifact id: '991dee7dd435f67846698012113cefd8') in 0.011069 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/get to position1.ogg
-  artifactKey: Guid(6186a2e994c3869419630e33a295cc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/get to position1.ogg using Guid(6186a2e994c3869419630e33a295cc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no can do2.ogg
+  artifactKey: Guid(506eca1429bd67740bdfdf992ee31c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no can do2.ogg using Guid(506eca1429bd67740bdfdf992ee31c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd5a8d3caf9000b26bbd1e21a1c9cf14f') in 0.011653 seconds
+ -> (artifact id: 'b79dd45089498d33c5d610af80b0f3b2') in 0.010712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/no way1.ogg
+  artifactKey: Guid(50597131b3070ef458adef97a8bc3606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/no way1.ogg using Guid(50597131b3070ef458adef97a8bc3606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc65f370883002f63e547ea8fb72878a') in 0.011626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no way2.ogg
+  artifactKey: Guid(9ea555a0c8d360846a754b50473c86d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no way2.ogg using Guid(9ea555a0c8d360846a754b50473c86d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0781716d807b3f2f1920835c6b10f5b3') in 0.013349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no way1.ogg
+  artifactKey: Guid(ad874965c65b9d74288c2b0525651f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/no way1.ogg using Guid(ad874965c65b9d74288c2b0525651f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1ddce31ba303aa90318ab6354ecddc1') in 0.011833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/no can do1.ogg
+  artifactKey: Guid(d3596185c8955144295aaae25cdeb899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/no can do1.ogg using Guid(d3596185c8955144295aaae25cdeb899) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f228a0cec84a94b9c1ba4764f9bf0178') in 0.009854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/no problemo2.ogg
+  artifactKey: Guid(e9c3b333782abaf41999cb1e13758fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/no problemo2.ogg using Guid(e9c3b333782abaf41999cb1e13758fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c5f692db3ece3b94dfb71c148bf310b3') in 0.010924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.055645 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/m'am yes m'am3.ogg
+  artifactKey: Guid(626ed006f5a189b40a8f2911aae01518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/m'am yes m'am3.ogg using Guid(626ed006f5a189b40a8f2911aae01518) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73a0ec32e1bce0ee09b89bbef8572d9b') in 0.011076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/medic1.ogg
+  artifactKey: Guid(453e805af0825df4d8f03689023bb308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/medic1.ogg using Guid(453e805af0825df4d8f03689023bb308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '07e57e24cb9ed06704264071188ef102') in 0.013432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/man down2.ogg
+  artifactKey: Guid(c0a6cd4ee256b384c91f8a567d152fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/man down2.ogg using Guid(c0a6cd4ee256b384c91f8a567d152fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50ef675254cbcc40452075fe7939f528') in 0.013159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/man down2.ogg
+  artifactKey: Guid(5c1dd230140d00346ae081b2f8bbd852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/man down2.ogg using Guid(5c1dd230140d00346ae081b2f8bbd852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '434787fb111b3c27c01ee51f80183117') in 0.012884 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/grenade3.ogg
-  artifactKey: Guid(cdb73438afbe2614d98ba4ee803812b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/grenade3.ogg using Guid(cdb73438afbe2614d98ba4ee803812b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/locking on target2.ogg
+  artifactKey: Guid(71f378dfa57aac547bf749df395ed2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/locking on target2.ogg using Guid(71f378dfa57aac547bf749df395ed2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'dd594b20d9220f871313929b7788cea1') in 0.011521 seconds
+ -> (artifact id: 'b939eac3d471ae92563ffc6e0465526e') in 0.011107 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/engaging target3.ogg
-  artifactKey: Guid(51a46cec229c7f14e9d316ab5b59e925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/engaging target3.ogg using Guid(51a46cec229c7f14e9d316ab5b59e925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/in range3.ogg
+  artifactKey: Guid(6f426cc12fb1ed04b8f571d1561b92e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/in range3.ogg using Guid(6f426cc12fb1ed04b8f571d1561b92e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ebe34ed05d6267cc2771435a1bcd4228') in 0.011026 seconds
+ -> (artifact id: '98d0ea0e5959b31e896dacf514069ef9') in 0.013566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/locked on target2.ogg
+  artifactKey: Guid(ce54af1c467724f40a17e9eb90f34355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/locked on target2.ogg using Guid(ce54af1c467724f40a17e9eb90f34355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1b37a93f0fe5ee8f33629749b9420ebf') in 0.012047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/locked on target3.ogg
+  artifactKey: Guid(805c3a8d6c67bba47845d1250973bbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/locked on target3.ogg using Guid(805c3a8d6c67bba47845d1250973bbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '377174f7b18d6831aa1032b9a8dc2f21') in 0.011885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/locked on target1.ogg
+  artifactKey: Guid(5ae53b15f3f9efc4d9f50e486854115a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/locked on target1.ogg using Guid(5ae53b15f3f9efc4d9f50e486854115a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c61aadecbd958a4e7a3895418993b33e') in 0.011745 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/get to position1.ogg
-  artifactKey: Guid(46bcd03e9ef27134d8f8f094168580eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/get to position1.ogg using Guid(46bcd03e9ef27134d8f8f094168580eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/locked on target2.ogg
+  artifactKey: Guid(6b376b5efd2144841848644a2025b764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/locked on target2.ogg using Guid(6b376b5efd2144841848644a2025b764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '86cdf7ac78ade498226084df8a8ba58c') in 0.011417 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/grenade1.ogg
-  artifactKey: Guid(f0501e8de57d71642a0c3a0104127039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/grenade1.ogg using Guid(f0501e8de57d71642a0c3a0104127039) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e16b83803f6e340018125efb7dd89e1a') in 0.012055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engage the enemy3.ogg
-  artifactKey: Guid(f461f020804d06a4db2e888a8470c9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engage the enemy3.ogg using Guid(f461f020804d06a4db2e888a8470c9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '616cba66678773f1f8cfe4c8cdb18aac') in 0.013109 seconds
+ -> (artifact id: '9c30cb2ef46e4cd78eefabadfe2599f8') in 0.013692 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/grenade1.ogg
-  artifactKey: Guid(fae4e851d9e645945b166e141960971b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/grenade1.ogg using Guid(fae4e851d9e645945b166e141960971b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/locked on target3.ogg
+  artifactKey: Guid(aceeb9a6cc7958c42bd6255562baf6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/locked on target3.ogg using Guid(aceeb9a6cc7958c42bd6255562baf6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0f202f9add58633065aa67c7c9163db2') in 0.013355 seconds
+ -> (artifact id: 'd18cd5896abb5e685d3fa6905441c42a') in 0.012501 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/covering fire3.ogg
-  artifactKey: Guid(194eb5f6818e3684d81db166e6200595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/covering fire3.ogg using Guid(194eb5f6818e3684d81db166e6200595) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/kill confirmed2.ogg
+  artifactKey: Guid(010e7a7229a3f76458a315b2d1b5fd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/kill confirmed2.ogg using Guid(010e7a7229a3f76458a315b2d1b5fd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '48b0910c6cbcb0480fb59be8e8825111') in 0.011716 seconds
+ -> (artifact id: '86a4efa3e333a491d4d5a13df2bd532e') in 0.012244 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/get to position2.ogg
-  artifactKey: Guid(c195acf82d999244aad609c7f8c1be5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/get to position2.ogg using Guid(c195acf82d999244aad609c7f8c1be5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/kill confirmed1.ogg
+  artifactKey: Guid(402d1dc215420f747a293b99dd753133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/kill confirmed1.ogg using Guid(402d1dc215420f747a293b99dd753133) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '94de314d8aaf31ed3b350f33441e2986') in 0.012505 seconds
+ -> (artifact id: '5b2037908b564f55bf5154a004aa6bcc') in 0.009959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/kill confirmed3.ogg
+  artifactKey: Guid(3db62dedeef20ac4b90c603e12c0c05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/kill confirmed3.ogg using Guid(3db62dedeef20ac4b90c603e12c0c05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb8cb55df18611a46bd8a2d973d235c3') in 0.014163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/kill confirmed3.ogg
+  artifactKey: Guid(168c87b3e7cf7724a840857789201c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/kill confirmed3.ogg using Guid(168c87b3e7cf7724a840857789201c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1e3f58b641925b4f311eeb97f90326c') in 0.011448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/in range1.ogg
+  artifactKey: Guid(c2767c5c1d9b5e34d99473afe2cd3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/in range1.ogg using Guid(c2767c5c1d9b5e34d99473afe2cd3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8a66d3885a0467410ec969d47c83a54') in 0.010263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/in position1.ogg
+  artifactKey: Guid(fce0c2cf82a02a4409e26a7cb177402d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/in position1.ogg using Guid(fce0c2cf82a02a4409e26a7cb177402d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '023ebab0430a512d16f29d06659e6384') in 0.011252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/impossible2.ogg
+  artifactKey: Guid(6c0c522e289cc9842a80e018ded5d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/impossible2.ogg using Guid(6c0c522e289cc9842a80e018ded5d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a8bf255f66d84f743a17b08dad57c99') in 0.011796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/immediately1.ogg
+  artifactKey: Guid(1d64af9f287d9924cba0303854a9bbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/immediately1.ogg using Guid(1d64af9f287d9924cba0303854a9bbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b6328173cf8469a45520ef845081e649') in 0.011011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/impossible3.ogg
+  artifactKey: Guid(bf84ade8a25e31140a232f5ca7b47e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/impossible3.ogg using Guid(bf84ade8a25e31140a232f5ca7b47e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd245ceaffd486af842c78a85cb9f7ac5') in 0.010899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/immediately2.ogg
+  artifactKey: Guid(58cb1715e1538d849b18f4ccdd8af8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/immediately2.ogg using Guid(58cb1715e1538d849b18f4ccdd8af8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d2f6af13f9fa2e3c899af628067cbe8') in 0.011053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/in range2.ogg
+  artifactKey: Guid(bf707597fed844f4cac9425e5278e0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/in range2.ogg using Guid(bf707597fed844f4cac9425e5278e0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '290f53300ad6f52e25551f46105bca2a') in 0.011403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/immediately1.ogg
+  artifactKey: Guid(51c0008ea66a66f44a36f62c264a9698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/immediately1.ogg using Guid(51c0008ea66a66f44a36f62c264a9698) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e3415c328197ca9e6d0ffd473e961654') in 0.012776 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engaging enemy1.ogg
-  artifactKey: Guid(0913525cc6fd5a44495a8e258f02c984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engaging enemy1.ogg using Guid(0913525cc6fd5a44495a8e258f02c984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/medic2.ogg
+  artifactKey: Guid(a975a0315807ff045ba5f457256664a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/medic2.ogg using Guid(a975a0315807ff045ba5f457256664a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b74fcb690177ede1b52b56738fabc257') in 0.012369 seconds
+ -> (artifact id: '8b5616970e37346e757001ed6a0c4605') in 0.010677 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/danger1.ogg
-  artifactKey: Guid(1c972668024d18c49a40f9a52100a5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/danger1.ogg using Guid(1c972668024d18c49a40f9a52100a5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/impossible2.ogg
+  artifactKey: Guid(7cdd630c0743cc04da7a5586d50c4d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/impossible2.ogg using Guid(7cdd630c0743cc04da7a5586d50c4d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '900df2c158388af851abac2ce358e703') in 0.012860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/get down3.ogg
-  artifactKey: Guid(6debedb00e684bd4f87fdc0f2a4639e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/get down3.ogg using Guid(6debedb00e684bd4f87fdc0f2a4639e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e17c3f40741b613bacbe6d3a2ea3198f') in 0.013698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engaging enemy2.ogg
-  artifactKey: Guid(bf61de240ab272b4886fb1e799da5243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/engaging enemy2.ogg using Guid(bf61de240ab272b4886fb1e799da5243) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c4efe9497a75e2b8d9277ee2cab13d72') in 0.011094 seconds
+ -> (artifact id: '41131ebeaad7629808abe71b699a86bf') in 0.011669 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/get down2.ogg
-  artifactKey: Guid(3b07696636e51cf42abde0217b0ef678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/get down2.ogg using Guid(3b07696636e51cf42abde0217b0ef678) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/man down3.ogg
+  artifactKey: Guid(777c273e99af9574ca7e66f7bf23d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/man down3.ogg using Guid(777c273e99af9574ca7e66f7bf23d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c55b1775926179a6165aca64354ec12e') in 0.011428 seconds
+ -> (artifact id: 'df737ce9ae3cfd1fa6f167287adcd7e9') in 0.012490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/impossible1.ogg
+  artifactKey: Guid(68a3db02cd4765c42b3c9b5e1040ee0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/impossible1.ogg using Guid(68a3db02cd4765c42b3c9b5e1040ee0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f018a00db2def317333258b674864552') in 0.011743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/impossible1.ogg
+  artifactKey: Guid(d80f02858c3d7664681f9ff2b5a2508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/impossible1.ogg using Guid(d80f02858c3d7664681f9ff2b5a2508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4cc1d15b3ff79ca44ec4f8044c40a790') in 0.014251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012946 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/i'm down3.ogg
+  artifactKey: Guid(8cdfcea18edebfe468f2ffe852a0eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/i'm down3.ogg using Guid(8cdfcea18edebfe468f2ffe852a0eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '800146cf530fd435ebc094a2a1dcba65') in 0.011161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/i'm under heavy fire2.ogg
+  artifactKey: Guid(203096b2d3086724596242214402503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/i'm under heavy fire2.ogg using Guid(203096b2d3086724596242214402503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b103d0d78bc6f24507651256f6249774') in 0.015341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/i'm down1.ogg
+  artifactKey: Guid(c286d9bf7b7bfdd4b91d5929d3476b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/i'm down1.ogg using Guid(c286d9bf7b7bfdd4b91d5929d3476b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b24867e55c7df50950d6af7aa0abd2bb') in 0.011488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/hostiles3.ogg
+  artifactKey: Guid(cf1bdfc5e7934e74da0b40e751cacefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/hostiles3.ogg using Guid(cf1bdfc5e7934e74da0b40e751cacefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '295e72d9da833d42cda0fcc89a48e5de') in 0.016720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/hostiles1.ogg
+  artifactKey: Guid(e66913bb90e401a47a7b9f6da0b7a9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/hostiles1.ogg using Guid(e66913bb90e401a47a7b9f6da0b7a9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ae61647ce358de6455b73625091d810') in 0.012483 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/covering fire3.ogg
-  artifactKey: Guid(d1c2afe48f902d64c85a3e0cc58285fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/covering fire3.ogg using Guid(d1c2afe48f902d64c85a3e0cc58285fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/hostiles2.ogg
+  artifactKey: Guid(442d6b924ad67c74ba0b73975b19b4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/hostiles2.ogg using Guid(442d6b924ad67c74ba0b73975b19b4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '150c8e815b7d6956aa3f7e8226ca39a5') in 0.011629 seconds
+ -> (artifact id: '35368ab47f079b57d6eaee32b26cc32d') in 0.011945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/i'm down3.ogg
+  artifactKey: Guid(dae35ae523436d945a7ea6420d8d136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/i'm down3.ogg using Guid(dae35ae523436d945a7ea6420d8d136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5cd41347ed8711f4dc37ce179303d9f1') in 0.012320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/i'm under heavy fire1.ogg
+  artifactKey: Guid(3e892bf14f0fb764cbf38b9acba8baf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/i'm under heavy fire1.ogg using Guid(3e892bf14f0fb764cbf38b9acba8baf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6a05c93bc07d1759938ea36a008bde3b') in 0.011620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/hostiles2.ogg
+  artifactKey: Guid(c8240239e19010849946fe07fd24b7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/hostiles2.ogg using Guid(c8240239e19010849946fe07fd24b7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4440fa27357b771139c60f3bb5111dd7') in 0.011219 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/get into position3.ogg
-  artifactKey: Guid(be7e90df065ad9b46b4dc18ea2ad12f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/get into position3.ogg using Guid(be7e90df065ad9b46b4dc18ea2ad12f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/i'm on it1.ogg
+  artifactKey: Guid(8077483836029394892a84ebc4b0aa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/i'm on it1.ogg using Guid(8077483836029394892a84ebc4b0aa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bcebb9796cee2a10fc3b31791b6e8b0f') in 0.013116 seconds
+ -> (artifact id: '3a64bd8529bee46712878fc14b25ef9c') in 0.010853 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/engaging target2.ogg
-  artifactKey: Guid(0aba9da4c0f4d164baed0bd375466f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/engaging target2.ogg using Guid(0aba9da4c0f4d164baed0bd375466f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/i'm under heavy fire1.ogg
+  artifactKey: Guid(6efa406ef85a62d4c8e22d5643256a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/i'm under heavy fire1.ogg using Guid(6efa406ef85a62d4c8e22d5643256a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd615d2916b3987290df0dd473bb357ad') in 0.012837 seconds
+ -> (artifact id: '22e37f655ff6509bb9a55a98486aca8a') in 0.012270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/i can't do that1.ogg
+  artifactKey: Guid(4355d74aa72708844946e7763afeb57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/i can't do that1.ogg using Guid(4355d74aa72708844946e7763afeb57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c13a7d1ba8f92e7c08f18b2e664a3560') in 0.010948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021920 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/holding position2.ogg
+  artifactKey: Guid(0414e7c5fdfde8347b2eee408531e33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/holding position2.ogg using Guid(0414e7c5fdfde8347b2eee408531e33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '563661adf6d2283c36e70d0a21fccc15') in 0.012118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/hostile2.ogg
+  artifactKey: Guid(557fbb3d2f36b1d459692cd02e4db658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/hostile2.ogg using Guid(557fbb3d2f36b1d459692cd02e4db658) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '560a90d29040e770c92f1ac90896add3') in 0.010926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/holding position1.ogg
+  artifactKey: Guid(97b9dfe1629c857428aaa80aa9b5d8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/holding position1.ogg using Guid(97b9dfe1629c857428aaa80aa9b5d8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '573956dbef60785c4c9a332ea85a09dd') in 0.010856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/hostiles detected3.ogg
+  artifactKey: Guid(842393fddd7c76b4680e4849b1bb1fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/hostiles detected3.ogg using Guid(842393fddd7c76b4680e4849b1bb1fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '67f06b234c01732d11ae5314c91a9b08') in 0.013524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/hostiles detected3.ogg
+  artifactKey: Guid(be634930e0242fb408aa80a113a4c181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/hostiles detected3.ogg using Guid(be634930e0242fb408aa80a113a4c181) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c9930d7f0adba502adbec086f97ea73') in 0.012298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/hostiles detected1.ogg
+  artifactKey: Guid(665737252fab6a0448617327d1c0fc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/hostiles detected1.ogg using Guid(665737252fab6a0448617327d1c0fc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5fcbe7a3319d44b831154ecbec80a511') in 0.011537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/hostile1.ogg
+  artifactKey: Guid(b40054031e868624383c3b247b12c838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/hostile1.ogg using Guid(b40054031e868624383c3b247b12c838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '76581f2d4cbe370e745d2b5feb3e758b') in 0.013501 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

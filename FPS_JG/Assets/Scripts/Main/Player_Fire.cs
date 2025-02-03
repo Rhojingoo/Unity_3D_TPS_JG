@@ -7,6 +7,7 @@ using UnityEngine;
 
 public class Player_Fire : MonoBehaviour
 {
+    AudioSource GunBGM;
     public GameObject Fire_Position;
     Animator Anim;
     bool isHitSomething = false;
@@ -32,7 +33,8 @@ public class Player_Fire : MonoBehaviour
     void Start()
     {
         Anim = GetComponentInChildren<Animator>();
-
+        GunBGM= GetComponent<AudioSource>();
+        GunBGM.Stop();
         // (A) 총알(폭탄) 풀: 예시만 있고, 아직 안 쓰고 있는 상태
         //Bullet_ObjectPool = new GameObject[Bullet_PoolSize];
         //for (int i = 0; i < Bullet_PoolSize; i++)
@@ -59,7 +61,7 @@ public class Player_Fire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.Gm.State != GameManager.GameState.Run)
+        if (GameManager.Gm.State != GameManager.GameState.Run && GameManager.Gm.State != GameManager.GameState.FindFriend)
         {
             return;        
         }
@@ -112,7 +114,7 @@ public class Player_Fire : MonoBehaviour
             return;
         }
 
-
+        GunBGM.Play();
         if (hitInfo.transform.gameObject.layer == LayerMask.NameToLayer("Enermy"))
         {
             print("플레이어 총솼어");

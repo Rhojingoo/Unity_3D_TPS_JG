@@ -18,17 +18,36 @@ public class Friend_Anim : MonoBehaviour
         
     }
 
-    private void OnTriggerStay(Collider other)
+
+    private void OnTriggerEnter(Collider other)
     {
         // Layer 8이 플레이어
         if (other.gameObject.layer == 8)
         {
             print("플레이어와 만났습니다");
+            GameManager.Gm.Find_Friend();
+        }
+    }
 
+
+    private void OnTriggerStay(Collider other)
+    {
+        // Layer 8이 플레이어
+        if (other.gameObject.layer == 8)
+        {
             if (Input.GetKeyDown(KeyCode.F))
             {
                 Anim.SetTrigger("STANDUP");
             }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        // Layer 8이 플레이어
+        if (other.gameObject.layer == 8)
+        {
+            GameManager.Gm.Exit_Friend();
         }
     }
 

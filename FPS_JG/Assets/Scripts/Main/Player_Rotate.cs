@@ -19,7 +19,7 @@ public class Player_Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.Gm.State != GameManager.GameState.Run)
+        if (GameManager.Gm.State != GameManager.GameState.Run && GameManager.Gm.State != GameManager.GameState.FindFriend)
         {
             return;
         }
