@@ -11,7 +11,6 @@ public class Bomb_Action : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -30,9 +29,7 @@ public class Bomb_Action : MonoBehaviour
         }
 
         GameObject gob = Instantiate(BombEffect);
-
         gob.transform.position = transform.position;
-
         Destroy(gameObject);
     }
 }

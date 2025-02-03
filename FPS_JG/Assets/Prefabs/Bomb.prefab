@@ -121,6 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BombEffect: {fileID: 2447095475289437055, guid: 4a94838dd8f1f4b439b1831a588bc762, type: 3}
+  explosionRadius: 5
 --- !u!54 &-6684431152585787312
 Rigidbody:
   m_ObjectHideFlags: 0
