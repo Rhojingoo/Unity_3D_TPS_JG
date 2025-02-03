@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public GameObject GameOption;
     Text GameText;
     Player_Move player;
+    AudioSource BGMusic;
 
     public enum GameState
     { 
@@ -29,11 +30,18 @@ public class GameManager : MonoBehaviour
         {
             Gm = this;
         }
+
+        if (BGMusic == null)
+        {
+            BGMusic = gameObject.GetComponent<AudioSource>();
+        }
+        StopMusic();
     }
 
     // Start is called before the first frame update
     void Start()
     {
+        StopMusic();
         State = GameState.Ready;
         GameText = GameLable.GetComponent<Text>();
         GameText.text = "Ready~~~!";
@@ -66,6 +74,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         GameLable.SetActive(false);
         State = GameState.Run;
+        PlayMusic();
     }
 
     public void SortPlayerAttack()
@@ -126,5 +135,14 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(5.5f);
         GameLable.SetActive(false);        
     }
-
+    public void PlayMusic()
+    {
+        // 오디오 클립 지정 후 재생
+        BGMusic.loop = true;     // 루프 재생 여부(필요시 설정)
+        BGMusic.Play();
+    }
+    public void StopMusic()
+    {
+        BGMusic.Stop();
+    }
 }
