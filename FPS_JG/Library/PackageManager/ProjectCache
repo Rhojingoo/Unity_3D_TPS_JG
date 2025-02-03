@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638739102749109757
-    m_Hash: 3775459087
+      ticks: 638741603481319376
+    m_Hash: 2225639540
   m_LockFileStatus:
     m_FilePath: C:/Users/USER-PC/Documents/GitHub/Unity_3D_FPS_JG/FPS_JG/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638739102749141643
-    m_Hash: 1827698423
+      ticks: 638741603481330200
+    m_Hash: 48158773
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1684,6 +1684,7 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
+    - 1.8.8
     compatible:
     - 1.7.6
     - 1.8.0
@@ -1694,6 +1695,7 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
+    - 1.8.8
     recommended: 1.7.6
     deprecated: []
   dependencies:
