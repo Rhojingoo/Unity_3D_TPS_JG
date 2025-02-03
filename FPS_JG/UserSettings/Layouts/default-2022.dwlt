@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: "\uC52C"
+  m_Title: "\uACC4\uCE35 \uAD6C\uC870"
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -219,8 +219,8 @@ MonoBehaviour:
     y: 0
     width: 343
     height: 939
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -550,23 +550,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 768b0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: fc06faff7e0dfaffc648faffde4ffafffe8efaff0424fbff7c68ffffce98ffffb899ffff249affff789affffc29affffb09bffffac9cffff049dffff609dffff00fbffff748d0000
+      m_SelectedIDs: 529a0000
+      m_LastClickedID: 39506
+      m_ExpandedIDs: 78e3feff4c13fffffc43ffffe292ffff5696ffffea9effffb4faffffc68b0000d28b0000e48b0000f08b0000788e00008c8f00008e9a0000cc9a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Game Manager
-        m_OriginalName: Game Manager
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 50802
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -683,9 +683,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 94890000
-    m_LastClickedID: 35220
-    m_ExpandedIDs: 0000000066890000688900006a8900006c8900006e89000070890000728900007489000076890000788900007a8900007c8900007e89000080890000828900008489000086890000888900008a8900008e8900009089000096890000428b000084910000
+    m_SelectedIDs: 408b0000
+    m_LastClickedID: 35648
+    m_ExpandedIDs: 000000007a8900007c8900007e89000080890000828900008489000086890000888900008a8900008c8900008e89000090890000928900009489000096890000988900009a8900009c8900009e890000a0890000a2890000a4890000a6890000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -713,7 +713,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000066890000688900006a8900006c8900006e89000070890000728900007489000076890000788900007a8900007c8900007e89000080890000828900008489000086890000888900008a8900008c8900008e8900009089000092890000948900009689000098890000
+    m_ExpandedIDs: 000000007a8900007c8900007e89000080890000828900008489000086890000888900008a8900008c8900008e89000090890000928900009489000096890000988900009a8900009c8900009e890000a0890000a2890000a4890000a6890000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -744,15 +744,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 26780000f05c00002e6c0000c05a0000b6610000ce5a0000a2710000986e00003ee100000cdd00004e5c0000565e0000143d0000ca97000000000000767d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GameManager
-      m_OriginalName: GameManager
+      m_Name: MainScene
+      m_OriginalName: MainScene
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 6342
+      m_UserData: 35662
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1275,9 +1275,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 440.49658, y: 237.04088, z: 140.76733}
+    m_Target: {x: 509.5, y: 448.5, z: 0}
     speed: 2
-    m_Value: {x: 440.49652, y: 237.04097, z: 140.76723}
+    m_Value: {x: 509.5, y: 448.5, z: 0.000007696446}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1323,13 +1323,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.03243501, y: -0.89919925, z: 0.0744994, w: 0.4296149}
+    m_Target: {x: -0.041549344, y: 0.03552078, z: 0.0043195565, w: 0.9983604}
     speed: 2
-    m_Value: {x: 0.028807448, y: -0.9024171, z: 0.06793724, w: 0.42449728}
+    m_Value: {x: -0.04155495, y: 0.03552557, z: 0.004320139, w: 0.9984951}
   m_Size:
-    m_Target: 416.2357
+    m_Target: 678.78015
     speed: 2
-    m_Value: 435.84888
+    m_Value: 678.78015
   m_Ortho:
     m_Target: 1
     speed: 2
