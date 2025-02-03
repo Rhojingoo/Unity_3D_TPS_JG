@@ -153,7 +153,8 @@ public class GameManager : MonoBehaviour
         GameLable.SetActive(true);
         GameText.text = "YouWin";
         yield return new WaitForSeconds(5.5f);
-        GameLable.SetActive(false);        
+        GameLable.SetActive(false);
+        SceneManager.LoadScene(3);
     }
     public void PlayMusic()
     {
