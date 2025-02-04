@@ -118,44 +118,10 @@ public class Player_Move : MonoBehaviour
 
         // ¡æ Animator¿¡ Àü´Þ
         Anim.SetFloat("MoveMotion", inputDir.magnitude);
-        //Anim.SetFloat("Speed", speed);
-        //Anim.SetFloat("Angle", angle);
-
-        //Hp_Slider.value = (float)Hp / (float)MaxHp;
+        Anim.SetFloat("Speed", speed);
+        Anim.SetFloat("Angle", angle);
     }
-    void basemove()
-    {
-        //float h = Input.GetAxis("Horizontal");
-        //float v = Input.GetAxis("Vertical");
-
-        //Vector3 Dir = new Vector3(h, 0, v);
-        //Dir = Dir.normalized;
-        //Anim.SetFloat("MoveMotion", Dir.magnitude);
-        //Dir = Camera.main.transform.TransformDirection(Dir);
-
-
-        //if (cc.collisionFlags == CollisionFlags.Below)
-        //{
-        //    if (IsJump)
-        //    {
-        //        IsJump = false;
-        //        yVelocity = 0f;
-        //    }
-        //}
-
-        //if (Input.GetButtonDown("Jump") && !IsJump)
-        //{
-        //    yVelocity = Jump_Power;
-        //    IsJump = true;
-        //}
-
-        //yVelocity += gravity * Time.deltaTime;
-        //Dir.y = yVelocity;
-
-        //cc.Move(Dir* Move_Speed* Time.deltaTime);
-
-        //PlayerRotate(v, h, Dir);
-    }
+   
     void PlayerRotate(float v, float h, Vector3 Dir)
     {
         //transform.position += Dir * Move_Speed * Time.deltaTime;

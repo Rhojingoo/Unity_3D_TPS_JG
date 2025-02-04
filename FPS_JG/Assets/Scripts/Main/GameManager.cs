@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     Text GameText;
     Player_Move player;
     AudioSource BGMusic;
+    public AudioClip BGMusicClip;
+    public AudioClip WinMusicClip;
+    public AudioClip GameOverClip;
 
     public enum GameState
     { 
@@ -64,6 +67,8 @@ public class GameManager : MonoBehaviour
             Transform Buttons = GameText.transform.GetChild(0);
             Buttons.gameObject.SetActive(true);
 
+            StopMusic();
+            PlayGameoverMusic();
             State = GameState.GameOver;
         }
 
@@ -80,7 +85,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         GameLable.SetActive(false);
         State = GameState.Run;
-        PlayMusic();
+        PlayBGMusic();
     }
 
     public void SortPlayerAttack()
@@ -141,7 +146,9 @@ public class GameManager : MonoBehaviour
 
     public void EndingGame()
     {
-       // Time.timeScale = 1f;
+        // Time.timeScale = 1f;
+        StopMusic();
+        PlayWinMusic();
         State = GameState.Win;
         StartCoroutine(NextEndingScene());
         // SceneManager.LoadScene(1);
@@ -156,14 +163,34 @@ public class GameManager : MonoBehaviour
         GameLable.SetActive(false);
         SceneManager.LoadScene(3);
     }
-    public void PlayMusic()
+    public void PlayBGMusic()
     {
         // 오디오 클립 지정 후 재생
+        BGMusic.clip = BGMusicClip;
         BGMusic.loop = true;     // 루프 재생 여부(필요시 설정)
         BGMusic.Play();
     }
+
+    public void PlayWinMusic()
+    {
+        // 오디오 클립 지정 후 재생
+        BGMusic.clip = WinMusicClip;
+        BGMusic.loop = true;     // 루프 재생 여부(필요시 설정)
+        BGMusic.Play();
+    }
+
+    public void PlayGameoverMusic()
+    {
+        // 오디오 클립 지정 후 재생
+        BGMusic.clip = WinMusicClip;
+        BGMusic.loop = false;     // 루프 재생 여부(필요시 설정)
+        BGMusic.Play();
+    }
+
     public void StopMusic()
     {
         BGMusic.Stop();
     }
+
+
 }

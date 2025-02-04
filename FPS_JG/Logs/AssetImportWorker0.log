@@ -1,0 +1,793 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.46f1 (8e9b8558c41a) revision 9345925'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 32375 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/USER-PC/Documents/GitHub/Unity_3D_TPS_JG/FPS_JG
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55412
+Successfully changed project path to: C:/Users/USER-PC/Documents/GitHub/Unity_3D_TPS_JG/FPS_JG
+C:/Users/USER-PC/Documents/GitHub/Unity_3D_TPS_JG/FPS_JG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28432]  Target information:
+
+Player connection [28432]  * "[IP] 192.168.219.161 [Port] 0 [Flags] 2 [Guid] 1395025623 [EditorId] 1395025623 [Version] 1048832 [Id] WindowsEditor(7,´í±¸ÄÄ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28432] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28432] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 17.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER-PC/Documents/GitHub/Unity_3D_TPS_JG/FPS_JG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010334 seconds.
+- Loaded All Assemblies, in  0.293 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.167 seconds
+Domain Reload Profiling: 458ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (167ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (138ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.610 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.562 seconds
+Domain Reload Profiling: 1167ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (144ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (562ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6808 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 162 unused Assets / (15.0 MB). Loaded Objects now: 7162.
+Memory consumption went from 406.6 MB to 391.6 MB.
+Total: 7.438800 ms (FindLiveObjects: 0.722700 ms CreateObjectMapping: 0.369500 ms MarkObjects: 3.029200 ms  DeleteObjects: 3.316300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.554 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.958 seconds
+Domain Reload Profiling: 2506ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1958ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 6.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6578 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 156 unused Assets / (15.0 MB). Loaded Objects now: 7165.
+Memory consumption went from 353.4 MB to 338.4 MB.
+Total: 5.401200 ms (FindLiveObjects: 0.421300 ms CreateObjectMapping: 0.246900 ms MarkObjects: 2.122300 ms  DeleteObjects: 2.610100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 81e4fd89b5f37901f5413a55be897e4f -> 9f59b3905dafd16d7c346961a663fc03
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.581 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.779 seconds
+Domain Reload Profiling: 2352ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1779ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6578 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 156 unused Assets / (15.0 MB). Loaded Objects now: 7168.
+Memory consumption went from 353.4 MB to 338.4 MB.
+Total: 5.268100 ms (FindLiveObjects: 0.428400 ms CreateObjectMapping: 0.122500 ms MarkObjects: 2.187100 ms  DeleteObjects: 2.529400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 81e4fd89b5f37901f5413a55be897e4f -> 9f59b3905dafd16d7c346961a663fc03
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.442 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.474 seconds
+Domain Reload Profiling: 1910ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1474ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6578 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 156 unused Assets / (15.0 MB). Loaded Objects now: 7171.
+Memory consumption went from 353.4 MB to 338.4 MB.
+Total: 5.607400 ms (FindLiveObjects: 0.392300 ms CreateObjectMapping: 0.260500 ms MarkObjects: 2.313300 ms  DeleteObjects: 2.640700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 81e4fd89b5f37901f5413a55be897e4f -> 9f59b3905dafd16d7c346961a663fc03
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22458.345831 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/06 Victory Fanfare (Intro).wav
+  artifactKey: Guid(d4fed57de9c8db9488eb14fcc06c6907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/06 Victory Fanfare (Intro).wav using Guid(d4fed57de9c8db9488eb14fcc06c6907) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d12610486cfe8d83d12e3e4e42b7822') in 0.095837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.466930 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/06a Victory Fanfare.wav
+  artifactKey: Guid(5019243e23dfbeb47b08afa997c253f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/06a Victory Fanfare.wav using Guid(5019243e23dfbeb47b08afa997c253f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d0c50b3a1b016e903ad27c70e89c0e8') in 0.012677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.864947 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/06b Victory Fanfare.wav
+  artifactKey: Guid(15ecae9d0e73c434697e0f83a1f505fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/06b Victory Fanfare.wav using Guid(15ecae9d0e73c434697e0f83a1f505fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f3ced9d3621f75363c53581d085e2599') in 0.015221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.001563 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/12a Overworld 2.wav
+  artifactKey: Guid(faae74f7e63621f42a3a234ca29a60f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/12a Overworld 2.wav using Guid(faae74f7e63621f42a3a234ca29a60f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '197c07308224847c1f80067d7bb27cee') in 0.014136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.555759 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/07a Grand City Theme.wav
+  artifactKey: Guid(02eef5471b8a17c428fcecd23ea3c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/07a Grand City Theme.wav using Guid(02eef5471b8a17c428fcecd23ea3c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2cd9266e8622cd812734bd0f74d5835c') in 0.011921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.513082 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/12b Overworld 2.wav
+  artifactKey: Guid(c9778a6eb6252ee4c8be329860937e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/12b Overworld 2.wav using Guid(c9778a6eb6252ee4c8be329860937e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a4590504297ce447fb6dd16a40994122') in 0.012408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.971603 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/15a Final Boss Battle.wav
+  artifactKey: Guid(ebc6e65f38e000e4bb8903a68c61b817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/15a Final Boss Battle.wav using Guid(ebc6e65f38e000e4bb8903a68c61b817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd6764581f08bd295f337145ded0b4e3') in 0.013561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.738798 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/15b Final Boss Battle.wav
+  artifactKey: Guid(ab6df97753bcf544688118b92968f240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/15b Final Boss Battle.wav using Guid(ab6df97753bcf544688118b92968f240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0c0f3a2c512a012f85afd1448fe8bcba') in 0.013285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.947615 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/11b Downtime.wav
+  artifactKey: Guid(bd22c7e54060d62488dc57156fb9f870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/11b Downtime.wav using Guid(bd22c7e54060d62488dc57156fb9f870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4c8abbfb2d40fb543379f9baa617c569') in 0.011335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.267718 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/11a Downtime.wav
+  artifactKey: Guid(a8ec68682e799e34991c77f19c2d296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/11a Downtime.wav using Guid(a8ec68682e799e34991c77f19c2d296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '164cc5ac966a68c91c069cc177abde9f') in 0.014175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.010133 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/10b Friendship and Love.wav
+  artifactKey: Guid(283e27c7a8547e749909d9109df47282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/10b Friendship and Love.wav using Guid(283e27c7a8547e749909d9109df47282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac399922fc423fb73d017f1ae56a6f6b') in 0.017195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.116430 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/10a Friendship and Love.wav
+  artifactKey: Guid(795cca2c5d946b54bbfb4737882d7938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/10a Friendship and Love.wav using Guid(795cca2c5d946b54bbfb4737882d7938) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4c86931161b018b831e804e05bb35196') in 0.012179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.369014 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/01a Title Theme.wav
+  artifactKey: Guid(3a5b46a512b09b348a587ae7d3377ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/01a Title Theme.wav using Guid(3a5b46a512b09b348a587ae7d3377ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5069bd40dbe3f61ec82dfaf72008ae6f') in 0.014480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.073554 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/03a World Map.wav
+  artifactKey: Guid(6d58355ee830bbb45bc7a8f83664af43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/03a World Map.wav using Guid(6d58355ee830bbb45bc7a8f83664af43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd39de335f8a77c8614930c38bced66e0') in 0.013073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.677199 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/08b Dungeon 1.wav
+  artifactKey: Guid(eca2efbc534f6a940bcaa734ec7d62f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/08b Dungeon 1.wav using Guid(eca2efbc534f6a940bcaa734ec7d62f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9caea274322fff4d1d314d065a7431dd') in 0.010842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.792819 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/09b Boss Battle Theme.wav
+  artifactKey: Guid(2df86c6dee7b73042a9f728d8f17b4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/09b Boss Battle Theme.wav using Guid(2df86c6dee7b73042a9f728d8f17b4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bce9dc706acd7b7d3417d8fbb2cd5d46') in 0.011893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 33.897135 seconds.
+  path: Assets/Pack/Game Voices
+  artifactKey: Guid(1767905baa2f309489efa9e2c55855ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices using Guid(1767905baa2f309489efa9e2c55855ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cdf8b2c7fd39dc1c322c34e144c6a716') in 0.000767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.771204 seconds.
+  path: Assets/Pack/Game Voices/Young Man
+  artifactKey: Guid(60137639257b97a498c1797882dd10ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man using Guid(60137639257b97a498c1797882dd10ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cbb6bd9c03a0486c79a37f46177e8b12') in 0.000621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.799983 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds
+  artifactKey: Guid(24eea668a8779814d8348984dba401f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds using Guid(24eea668a8779814d8348984dba401f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d90b00a41f4e6ac7f8d04747f9ab342') in 0.000544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.828460 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Battle
+  artifactKey: Guid(8ae1c45a50627fa47a40feac05de4e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Battle using Guid(8ae1c45a50627fa47a40feac05de4e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7baa1a540b5cf2569b4202dab3c5c6cd') in 0.000547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.751333 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Battle/Pain
+  artifactKey: Guid(810ecb61475e216409bbbaf5f8a08c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Battle/Pain using Guid(810ecb61475e216409bbbaf5f8a08c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '402c7aa071e0318cc092fe60e6ca8b21') in 0.000661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.631746 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Battle/Pain/Voice
+  artifactKey: Guid(15a838f4f6fb72a42b042bc21124132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Battle/Pain/Voice using Guid(15a838f4f6fb72a42b042bc21124132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'db48f9766566ee62887601e5c86a4161') in 0.000573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.771127 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Battle/Pain/Voice/Pain 2.wav
+  artifactKey: Guid(52777b9f1e494134dbf2665082368fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Battle/Pain/Voice/Pain 2.wav using Guid(52777b9f1e494134dbf2665082368fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2649130a9f0da63d6ce18bcfd1fd06a3') in 0.013246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.043584 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Battle/Pain/Voice/Pain 3.wav
+  artifactKey: Guid(5a8adb7d39fd4e0448d879b91abe74df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Battle/Pain/Voice/Pain 3.wav using Guid(5a8adb7d39fd4e0448d879b91abe74df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bce43195572139eb7c391fcf4c33c437') in 0.012670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.106386 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Battle/Pain/Voice/Pain 4.wav
+  artifactKey: Guid(06083143d7a1db64097df792d95c5ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Battle/Pain/Voice/Pain 4.wav using Guid(06083143d7a1db64097df792d95c5ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f5157fc0572d60c01a491ec50b152d99') in 0.013510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.568544 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Battle/Support
+  artifactKey: Guid(ff95a938e75878144adff989a5fe2cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Battle/Support using Guid(ff95a938e75878144adff989a5fe2cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e5995b8694dcd75b59ee932bc079dbd2') in 0.000527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.879290 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Battle/Support/Spell
+  artifactKey: Guid(36676a6e195f9ba47835922b3467420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Battle/Support/Spell using Guid(36676a6e195f9ba47835922b3467420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '038af86f3b6601582aa7d118c1e46626') in 0.000542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.948672 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Battle/Support/Spell/Stop.wav
+  artifactKey: Guid(03db5defcbceb6442abb16173f8de427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Battle/Support/Spell/Stop.wav using Guid(03db5defcbceb6442abb16173f8de427) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f29fcefdc2a6143be4abe5f905253c4c') in 0.014266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.374567 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Battle/Support/Utility/Eat Instant.wav
+  artifactKey: Guid(d451d3f66a63bae4c835e22799afe1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Battle/Support/Utility/Eat Instant.wav using Guid(d451d3f66a63bae4c835e22799afe1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de3ae48eb3afecc54586154d7ab9e570') in 0.013884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.624773 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Battle/Support/Voice/Taunt.wav
+  artifactKey: Guid(591ea6fc013d6e34997fd7e2b538a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Battle/Support/Voice/Taunt.wav using Guid(591ea6fc013d6e34997fd7e2b538a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4857e4f73a4b16e9bbf5ead311f614ac') in 0.015244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.456278 seconds.
+  path: Assets/Pack/Game Voices/Young Man/Sounds/Battle/Support/Voice/Assist.wav
+  artifactKey: Guid(3281583486bf4764d93d8c1f22544451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Game Voices/Young Man/Sounds/Battle/Support/Voice/Assist.wav using Guid(3281583486bf4764d93d8c1f22544451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '75ed4dbecb4c348197692b735791310e') in 0.013315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.847918 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/over1.ogg
+  artifactKey: Guid(3f4e065397a18f34b84c3a8bcc21394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/over1.ogg using Guid(3f4e065397a18f34b84c3a8bcc21394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '876fd488c089a16ba2237f971214c26b') in 0.012606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.146208 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/over2.ogg
+  artifactKey: Guid(875b7e1e3128c344d84e0a75cdd71a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/over2.ogg using Guid(875b7e1e3128c344d84e0a75cdd71a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9bcba9e1a6b2d4563f741589553e4313') in 0.012441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.368005 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/over3.ogg
+  artifactKey: Guid(1676cf60a57902c479477c3cb2442f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/over3.ogg using Guid(1676cf60a57902c479477c3cb2442f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ecfa798a4a7aa16878ee9d2335b8647f') in 0.011921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.421820 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/covering fire3.ogg
+  artifactKey: Guid(194eb5f6818e3684d81db166e6200595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/covering fire3.ogg using Guid(194eb5f6818e3684d81db166e6200595) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03725310e320838e1acf208856bdb0e0') in 0.011565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.679264 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/cover me2.ogg
+  artifactKey: Guid(c1da34e2525ed72459531d53ab6507f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/cover me2.ogg using Guid(c1da34e2525ed72459531d53ab6507f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54e425d5a403ab376707d626aef96f0b') in 0.012453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.990196 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/take cover3.ogg
+  artifactKey: Guid(1f032eba299228a4894da8870046030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/take cover3.ogg using Guid(1f032eba299228a4894da8870046030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78d307c74be3b8a2e10b8fb91c759009') in 0.013486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.553024 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/take cover3.ogg
+  artifactKey: Guid(fef9b177e2a2011458bc8d7a36f9e94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/take cover3.ogg using Guid(fef9b177e2a2011458bc8d7a36f9e94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2d96234e58296079ab4e4ffd859a0b8') in 0.013714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.949012 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/take cover2.ogg
+  artifactKey: Guid(3c09051bbbcdfb44fb745fec8e813852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/take cover2.ogg using Guid(3c09051bbbcdfb44fb745fec8e813852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '945c94e9a3ff80b4ae7e6062105f6e35') in 0.011460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.311090 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/covering fire2.ogg
+  artifactKey: Guid(c47a96396b876714097d1acbbc9744b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Radio/covering fire2.ogg using Guid(c47a96396b876714097d1acbbc9744b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee1e3835b3693faa6062647be99cbc2d') in 0.013998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.800551 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/cover me3.ogg
+  artifactKey: Guid(87483fa267e4fc44488fc393c20919b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/cover me3.ogg using Guid(87483fa267e4fc44488fc393c20919b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a00facf4588b605a981c638f02025269') in 0.012323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.916122 seconds.
+  path: Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/cover me2.ogg
+  artifactKey: Guid(a44922b4efe99c04eb869f7ba7925f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Female Soldier Voice - Nguyen Hiem Chi/Normal/cover me2.ogg using Guid(a44922b4efe99c04eb869f7ba7925f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '85e4dc261465bae07689c3a1ca8652f3') in 0.012526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.579838 seconds.
+  path: Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/04b Overworld 1.wav
+  artifactKey: Guid(51dccbd854b89104f8b5a90a41e4a28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Adventure RPG Essentials Music Pack v1.1/WAV/04b Overworld 1.wav using Guid(51dccbd854b89104f8b5a90a41e4a28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '47c912d37a9400606655ed4d5e17512f') in 0.014071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
