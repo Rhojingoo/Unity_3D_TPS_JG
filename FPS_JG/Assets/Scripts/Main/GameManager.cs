@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Xml;
 
 public class GameManager : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
 
     public enum GameState
     { 
+        Open,
         Ready,
         Run,
         Pause,
@@ -46,13 +48,9 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         StopMusic();
-        State = GameState.Ready;
+        player = GameObject.Find("Player").GetComponent<Player_Move>();
         GameText = GameLable.GetComponent<Text>();
-        GameText.text = "Ready~~~!";
-        GameText.color = new Color32(255, 185, 0, 255);
-        player = GameObject.Find("Player").GetComponent<Player_Move>(); 
-
-        StartCoroutine(ReadytoStart());
+        Openning();
     }
 
     // Update is called once per frame
@@ -77,6 +75,28 @@ public class GameManager : MonoBehaviour
             OpenOptionWindow();
         }
     }
+
+    void Openning()
+    {
+        State = GameState.Open;
+        GameText.text = "Save You'r Friend";
+        GameText.color = new Color32(255, 185, 0, 255);
+        StartCoroutine(OpentoReady());
+    }
+
+    IEnumerator OpentoReady()
+    {
+        yield return new WaitForSeconds(4f);
+        GameLable.SetActive(false);
+
+        yield return new WaitForSeconds(1f);
+        GameLable.SetActive(true);
+        State = GameState.Ready;
+        GameText.text = "Ready~~~!";
+        GameText.color = new Color32(255, 185, 0, 255);
+        StartCoroutine(ReadytoStart());        
+    }
+
 
     IEnumerator ReadytoStart()
     {
