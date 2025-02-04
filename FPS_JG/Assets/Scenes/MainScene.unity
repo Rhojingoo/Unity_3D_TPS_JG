@@ -3401,12 +3401,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Fire_Position: {fileID: 539009539}
-  Bullet_PoolSize: 10
+  Bullet_Effect: {fileID: 6512949194410826539, guid: 3a80fc29146fb8548954cc94239e3eda, type: 3}
+  BulletEffect_PoolSize: 3
+  Bullet_Power: 25
+  Bomb_PoolSize: 3
   Bomb_Factory: {fileID: 4490792005647949623, guid: 3f7ea88c323d66a4fa4568daf770b33d, type: 3}
   Throw_Power: 10
-  Bullet_Effect: {fileID: 6512949194410826539, guid: 3a80fc29146fb8548954cc94239e3eda, type: 3}
-  Effect_PoolSize: 10
-  Bullet_Power: 25
 --- !u!82 &645042678
 AudioSource:
   m_ObjectHideFlags: 0

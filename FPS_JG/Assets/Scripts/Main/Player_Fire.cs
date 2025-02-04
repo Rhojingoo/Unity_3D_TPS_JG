@@ -12,19 +12,18 @@ public class Player_Fire : MonoBehaviour
     Animator Anim;
     bool isHitSomething = false;
 
-    //--------- (A) 총알(수류탄) 풀 관련 -----------
-    GameObject[] Bullet_ObjectPool;
-    public int Bullet_PoolSize = 10;
-    public GameObject Bomb_Factory;
-    public float Throw_Power = 55f;
 
-
-    // --------- (B) 이펙트 풀 관련 ----------
+    // --------- (A) 이펙트 풀 관련 ----------
     public GameObject Bullet_Effect;     // 파티클 프리팹
-    public int Effect_PoolSize = 10;     // 풀 크기
-    GameObject[] Effect_ObjectPool;
+    public int BulletEffect_PoolSize = 3;     // 풀 크기
+    GameObject[] Bullet_ObjectPool;
     public int Bullet_Power = 35;
-    //ParticleSystem Ps;
+
+    //--------- (B) 수류탄 풀 관련 -----------
+    GameObject[] Bomb_ObjectPool;
+    public int Bomb_PoolSize = 3;
+    public GameObject Bomb_Factory;
+    public float Throw_Power = 10f;
 
     Ray ray;
     RaycastHit hitInfo;
@@ -35,27 +34,28 @@ public class Player_Fire : MonoBehaviour
         Anim = GetComponentInChildren<Animator>();
         GunBGM= GetComponent<AudioSource>();
         GunBGM.Stop();
-        // (A) 총알(폭탄) 풀: 예시만 있고, 아직 안 쓰고 있는 상태
-        //Bullet_ObjectPool = new GameObject[Bullet_PoolSize];
-        //for (int i = 0; i < Bullet_PoolSize; i++)
-        //{
-        //    GameObject bullet = Instantiate(Bomb_Factory);
-        //    bullet.SetActive(false);
-        //    Bullet_ObjectPool[i] = bullet;
-        //}
 
-        // (B) 이펙트 풀 생성
-        Effect_ObjectPool = new GameObject[Effect_PoolSize];
-        for (int i = 0; i < Effect_PoolSize; i++)
+
+        // (A) 총알 이펙트 풀 생성
+        Bullet_ObjectPool = new GameObject[BulletEffect_PoolSize];
+        for (int i = 0; i < BulletEffect_PoolSize; i++)
         {
             GameObject effectObj = Instantiate(Bullet_Effect);
             effectObj.SetActive(false);
-            Effect_ObjectPool[i] = effectObj;
+            Bullet_ObjectPool[i] = effectObj;
 
             // 파티클이 재생 완료되면 자동으로 풀에 반환하기 위한 스크립트
             //effectObj.AddComponent<ParticleAutoDisable>();
         }
-        //  Ps = Bullet_Effect.GetComponent<ParticleSystem>();
+
+        // (B) 폭탄 풀: 예시만 있고, 아직 안 쓰고 있는 상태
+        Bomb_ObjectPool = new GameObject[Bomb_PoolSize];
+        for (int i = 0; i < Bomb_PoolSize; i++)
+        {
+            GameObject bullet = Instantiate(Bomb_Factory);
+            bullet.SetActive(false);
+            Bomb_ObjectPool[i] = bullet;
+        }
     }
 
     // Update is called once per frame
@@ -98,10 +98,13 @@ public class Player_Fire : MonoBehaviour
 
     public void BombFire()
     {
-        GameObject Bomb = Instantiate(Bomb_Factory);
+        //GameObject Bomb = Instantiate(Bomb_Factory);
+        GameObject Bomb = Get_Bomb_FromPool();
         Bomb.transform.position = Fire_Position.transform.position;
-
+        Bomb.SetActive(true);
         Rigidbody rb = Bomb.GetComponent<Rigidbody>();
+        rb.velocity = Vector3.zero;        // 직선 속도 초기화
+        rb.angularVelocity = Vector3.zero; // 회전 속도 초기화
         rb.AddForce(Camera.main.transform.forward * Throw_Power, ForceMode.Impulse);
     }
 
@@ -126,14 +129,14 @@ public class Player_Fire : MonoBehaviour
             if (isHitSomething)
             {
                 print("허공발사");
-                GetFireEffect();
+                GetBULLETEffect();
             }
         }
     }
 
-    void GetFireEffect()
+    void GetBULLETEffect()
     {
-        GameObject effectObj = GetEffectFromPool();
+        GameObject effectObj = Get_BULLET_EffectFromPool();
         if (effectObj != null)
         {
             // 위치/회전 설정
@@ -152,19 +155,32 @@ public class Player_Fire : MonoBehaviour
     }
 
 
-    GameObject GetEffectFromPool()
+    GameObject Get_BULLET_EffectFromPool()
     {
-        for (int i = 0; i < Effect_ObjectPool.Length; i++)
+        for (int i = 0; i < Bullet_ObjectPool.Length; i++)
         {
             // 아직 사용 중이 아닌(비활성화된) 오브젝트 찾기
-            if (!Effect_ObjectPool[i].activeSelf)
+            if (!Bullet_ObjectPool[i].activeSelf)
             {
-                return Effect_ObjectPool[i];
+                return Bullet_ObjectPool[i];
             }
         }
         // 남아있는 이펙트가 없다면(풀이 꽉 찼다면),
         // 필요에 따라 새로 Instantiate하거나, null을 리턴하는 등 정책 결정
         // 여기서는 null 리턴
+        return null;
+    }
+
+    GameObject Get_Bomb_FromPool()
+    {
+        for (int i = 0; i < Bomb_ObjectPool.Length; i++)
+        {
+            // 아직 사용 중이 아닌(비활성화된) 오브젝트 찾기
+            if (!Bomb_ObjectPool[i].activeSelf)
+            {
+                return Bomb_ObjectPool[i];
+            }
+        }
         return null;
     }
 

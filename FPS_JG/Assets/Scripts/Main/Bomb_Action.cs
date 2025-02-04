@@ -30,6 +30,7 @@ public class Bomb_Action : MonoBehaviour
 
         GameObject gob = Instantiate(BombEffect);
         gob.transform.position = transform.position;
-        Destroy(gameObject);
+        gameObject.SetActive(false);
+        //Destroy(gameObject);
     }
 }
