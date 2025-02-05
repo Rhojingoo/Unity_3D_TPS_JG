@@ -136,6 +136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3495170}
+  - component: {fileID: 3495171}
   m_Layer: 0
   m_Name: EndingCinema
   m_TagString: Untagged
@@ -159,6 +160,22 @@ Transform:
   - {fileID: 2052570137}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3495171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3495169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac248d90127364b4096e064f888cfb6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timelineDirector: {fileID: 2052570138}
+  cinemachineCamera: {fileID: 202561284}
+  player: {fileID: 203343309}
+  friendcharactor: {fileID: 611699309}
 --- !u!1 &9624427
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,12 +896,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'root'\n\tTransform 'upperleg.l'\n\tTransform
-    'lowerarm.l'\n\tTransform 'hips'\n\tTransform 'lowerarm.r'\n\tTransform 'toes.l'\n\tTransform
-    'upperarm.l'\n\tTransform 'foot.r'\n\tTransform 'foot.l'\n\tTransform 'head'\n\tand
-    more ..."
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -2600,7 +2612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!320 &526370245
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -3558,12 +3570,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'root'\n\tTransform 'upperleg.l'\n\tTransform
-    'lowerarm.l'\n\tTransform 'hips'\n\tTransform 'lowerarm.r'\n\tTransform 'toes.l'\n\tTransform
-    'upperarm.l'\n\tTransform 'foot.r'\n\tTransform 'foot.l'\n\tTransform 'head'\n\tand
-    more ..."
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -4755,7 +4762,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &872399478
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4855,6 +4862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ee909e3e89ce94b827cf637552c4d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EndingCinema: {fileID: 3495169}
 --- !u!320 &872399483
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -5670,8 +5678,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.21845698, y: 0.72141355, z: -0.23007607, w: 0.61555177}
-  m_LocalPosition: {x: 88.31085, y: 5.0305743, z: -110.620834}
+  m_LocalRotation: {x: 0.09619811, y: 0.8998651, z: -0.34186277, w: 0.2532166}
+  m_LocalPosition: {x: -67.96507, y: 20.653976, z: 57.31895}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7326,8 +7334,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373849969}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.041063182, y: 0.95082074, z: -0.14399652, w: 0.27114356}
-  m_LocalPosition: {x: 148.1442, y: 2.2124937, z: -147.98557}
+  m_LocalRotation: {x: 0.09619811, y: 0.8998651, z: -0.34186277, w: 0.2532166}
+  m_LocalPosition: {x: -10.595074, y: 19.103977, z: 17.41895}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7560,6 +7568,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fb528d2c4e3937e4eb6de4956500baa0, type: 3}
       propertyPath: m_Name
       value: Skeleton_Minion
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fb528d2c4e3937e4eb6de4956500baa0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

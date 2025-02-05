@@ -176,7 +176,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator NextEndingScene()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(7f);
         GameLable.SetActive(true);
         GameText.text = "YouWin";
         yield return new WaitForSeconds(5.5f);

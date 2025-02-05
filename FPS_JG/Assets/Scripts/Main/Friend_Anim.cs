@@ -5,11 +5,14 @@ using UnityEngine;
 public class Friend_Anim : MonoBehaviour
 {
     Animator Anim;
+    public GameObject EndingCinema;
+    TimelineController TC;
 
     // Start is called before the first frame update
     void Start()
     {
         Anim = GetComponentInChildren<Animator>();
+        TC = EndingCinema.GetComponent<TimelineController>();
     }
 
     // Update is called once per frame
@@ -37,7 +40,12 @@ public class Friend_Anim : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.F))
             {
-                Anim.SetTrigger("STANDUP");
+                //Anim.SetTrigger("STANDUP");
+                GameManager.Gm.Exit_Friend();
+                TC.PlayCinema();
+                GameManager.Gm.EndingGame();
+                other.gameObject.SetActive(false);
+                Destroy(gameObject);
             }
         }
     }
