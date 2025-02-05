@@ -14,15 +14,15 @@ public class Player_Fire : MonoBehaviour
 
 
     // --------- (A) 이펙트 풀 관련 ----------
-    public GameObject Bullet_Effect;     // 파티클 프리팹
-    public int BulletEffect_PoolSize = 3;     // 풀 크기
     GameObject[] Bullet_ObjectPool;
+    public int BulletEffect_PoolSize = 3;       // 풀 크기
+    public GameObject Bullet_Effect;            // 파티클 프리팹
     public int Bullet_Power = 35;
 
     //--------- (B) 수류탄 풀 관련 -----------
     GameObject[] Bomb_ObjectPool;
-    public int Bomb_PoolSize = 3;
-    public GameObject Bomb_Factory;
+    public int Bomb_PoolSize = 3;               // 풀 크기
+    public GameObject Bomb_Factory;             // 파티클 프리팹
     public float Throw_Power = 10f;
 
     Ray ray;
@@ -98,7 +98,6 @@ public class Player_Fire : MonoBehaviour
 
     public void BombFire()
     {
-        //GameObject Bomb = Instantiate(Bomb_Factory);
         GameObject Bomb = Get_Bomb_FromPool();
         Bomb.transform.position = Fire_Position.transform.position;
         Bomb.SetActive(true);

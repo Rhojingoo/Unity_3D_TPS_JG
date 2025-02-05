@@ -3906,8 +3906,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Fire_Position: {fileID: 539009539}
-  Bullet_Effect: {fileID: 6512949194410826539, guid: 3a80fc29146fb8548954cc94239e3eda, type: 3}
   BulletEffect_PoolSize: 3
+  Bullet_Effect: {fileID: 6512949194410826539, guid: 3a80fc29146fb8548954cc94239e3eda, type: 3}
   Bullet_Power: 25
   Bomb_PoolSize: 3
   Bomb_Factory: {fileID: 4490792005647949623, guid: 3f7ea88c323d66a4fa4568daf770b33d, type: 3}
@@ -7842,7 +7842,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 75}
-  m_SizeDelta: {x: 650, y: 100}
+  m_SizeDelta: {x: 1500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1473473199
 GameObject:

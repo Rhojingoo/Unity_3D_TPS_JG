@@ -6,7 +6,7 @@ public class Bomb_Action : MonoBehaviour
 {
     public GameObject BombEffect;
     int Dammage = 50;
-    public float explosionRadius = 5f;
+    public float explosionRadius = 3f;
 
     // Start is called before the first frame update
     void Start()

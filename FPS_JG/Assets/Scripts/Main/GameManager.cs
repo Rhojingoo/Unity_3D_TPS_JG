@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
     void Openning()
     {
         State = GameState.Open;
-        GameText.text = "Save You'r Friend";
+        GameText.text = "Save Your Friend";
         GameText.color = new Color32(255, 185, 0, 255);
         StartCoroutine(OpentoReady());
     }
@@ -116,7 +116,7 @@ public class GameManager : MonoBehaviour
     IEnumerator ImpossibleAttack()
     {
         GameLable.SetActive(true);
-        GameText.text = "CannotAttackYourself";
+        GameText.text = "Can't Attack Yourself";
         GameText.color = new Color32(255, 0, 0, 255);
 
         yield return new WaitForSeconds(0.5f);
@@ -144,6 +144,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(1);
+        Cursor.visible = false;
     }
 
     public void QuitGame()
@@ -204,6 +205,7 @@ public class GameManager : MonoBehaviour
     public void PlayGameoverMusic()
     {
         // 오디오 클립 지정 후 재생
+        Cursor.visible = true;
         BGMusic.clip = WinMusicClip;
         BGMusic.loop = false;     // 루프 재생 여부(필요시 설정)
         BGMusic.Play();

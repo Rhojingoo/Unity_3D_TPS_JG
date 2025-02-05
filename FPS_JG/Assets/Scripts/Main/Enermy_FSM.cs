@@ -222,11 +222,12 @@ public class Enermy_FSM : MonoBehaviour
     
     IEnumerator DamegeProcess()
     {
-        //0.5초 대기시켜!!
         yield return new WaitForSeconds(1f);       
         print("상태변경 : DAMEGED -> MOVE");
         State = EnermyState.MOVE;
     }
+
+
 
     void Die()
     {
