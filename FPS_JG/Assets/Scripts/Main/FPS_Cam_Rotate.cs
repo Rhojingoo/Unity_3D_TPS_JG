@@ -18,8 +18,9 @@ public class FPS_Cammer_Rotate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // 시작 시 마우스 고정(선택 사항)
-        // Cursor.lockState = CursorLockMode.Locked;
+        // 마우스 커서를 숨기고 
+        Cursor.visible = false;
+       // Cursor.lockState = CursorLockMode.Locked;
 
         Vector3 initAngle = transform.eulerAngles;
         currentPitch = initAngle.x;

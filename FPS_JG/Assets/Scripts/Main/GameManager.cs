@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
         }
 
        if(Input.GetKeyDown(KeyCode.Escape))
-        {
+        {           
             OpenOptionWindow();
         }
     }
@@ -128,6 +128,7 @@ public class GameManager : MonoBehaviour
         GameOption.SetActive(true);
         Time.timeScale = 0f;
         State = GameState.Pause;
+        Cursor.visible = true;
     }
 
     public void CloseOptionWindow()
@@ -135,6 +136,7 @@ public class GameManager : MonoBehaviour
         GameOption.SetActive(false);
         Time.timeScale = 1f;
         State = GameState.Run;
+        Cursor.visible = false;
     }
 
     public void RestartGame()
